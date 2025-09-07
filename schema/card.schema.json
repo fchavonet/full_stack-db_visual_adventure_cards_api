@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/fchavonet/web-db_visual_adventure_cards_api/schema/card.schema.json",
+  "title": "Visual Adventure Card",
+  "type": "object",
+  "required": [
+    "id",
+    "part",
+    "number",
+    "title_jp",
+    "rarity",
+    "front_image_url",
+    "back_image_url",
+    "updated_at"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^p\\d+-\\d{3}[a-z]?$"
+    },
+    "part": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "number": {
+      "type": "string",
+      "pattern": "^\\d{3}$"
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 1900
+    },
+    "title_jp": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "title_fr": {
+      "type": "string"
+    },
+    "rarity": {
+      "type": "string",
+      "enum": [
+        "standard",
+        "prism",
+        "special"
+      ]
+    },
+    "front_image_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "back_image_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}
