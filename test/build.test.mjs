@@ -78,7 +78,7 @@ describe("Utility functions", () => {
 describe("API creation functions", () => {
   describe("readCsvFile", () => {
     it("Should read CSV file and return data >", async () => {
-      const testFilePath = path.join(process.cwd(), "tests", "sample.csv");
+      const testFilePath = path.join(process.cwd(), "test", "sample.csv");
       const csvContent = `part,number,year,title_jp,title_en,title_fr,rarity
 1,1,1991,宝ものはいただきだ！,I'll take that treasure!,Je prends ce trésor !,prism`;
 
