@@ -167,12 +167,7 @@ export async function convertRowToCard(csvRow) {
   const cardObject = {
     id: cardId,
     part: partNumber,
-    number: formattedNumber,
-    title_jp: isValidValue(csvRow.title_jp) ? String(csvRow.title_jp) : "（要入力）",
-    rarity: determineCardRarity(csvRow.rarity),
-    front_image_url: frontImageUrl,
-    back_image_url: backImageUrl,
-    updated_at: new Date().toISOString()
+    number: formattedNumber
   };
 
   if (isValidValue(csvRow.year)) {
@@ -183,6 +178,14 @@ export async function convertRowToCard(csvRow) {
     }
   }
 
+  cardObject.rarity = determineCardRarity(csvRow.rarity);
+
+  if (isValidValue(csvRow.title_jp)) {
+    cardObject.title_jp = String(csvRow.title_jp);
+  } else {
+    cardObject.title_jp = "タイトルなし";
+  }
+
   if (isValidValue(csvRow.title_en)) {
     cardObject.title_en = String(csvRow.title_en);
   }
@@ -190,6 +193,11 @@ export async function convertRowToCard(csvRow) {
   if (isValidValue(csvRow.title_fr)) {
     cardObject.title_fr = String(csvRow.title_fr);
   }
+
+  cardObject.front_image_url = frontImageUrl;
+  cardObject.back_image_url = backImageUrl;
+
+  cardObject.updated_at = new Date().toISOString();
 
   return {
     card: cardObject,
@@ -300,7 +308,7 @@ export async function buildApiFiles() {
 
   for (let i = 0; i < allBuiltCards.length; i++) {
     const currentCard = allBuiltCards[i];
-    
+
     await writeJsonFile(OUTPUT_DIRECTORY + "/cards/" + currentCard.id + ".json", currentCard);
   }
 
