@@ -2,12 +2,12 @@
   "id": "p1-007",
   "part": 1,
   "number": "007",
-  "title_jp": "冒険にいこう！",
+  "year": 1991,
   "rarity": "standard",
+  "title_jp": "冒険にいこう！",
+  "title_en": "Let’s go on an adventure!",
+  "title_fr": "Allons à l’aventure !",
   "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-007.png",
   "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-007.png",
-  "updated_at": "2025-09-10T08:43:02.505Z",
-  "year": 1991,
-  "title_en": "Let’s go on an adventure!",
-  "title_fr": "Allons à l’aventure !"
+  "updated_at": "2025-09-12T16:41:29.894Z"
 }

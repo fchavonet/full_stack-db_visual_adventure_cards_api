@@ -2,12 +2,12 @@
   "id": "p1-027",
   "part": 1,
   "number": "027",
-  "title_jp": "大丈夫か？",
+  "year": 1991,
   "rarity": "standard",
+  "title_jp": "大丈夫か？",
+  "title_en": "Are you okay?",
+  "title_fr": "Tu vas bien ?",
   "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-027.png",
   "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-027.png",
-  "updated_at": "2025-09-10T08:43:02.511Z",
-  "year": 1991,
-  "title_en": "Are you okay?",
-  "title_fr": "Tu vas bien ?"
+  "updated_at": "2025-09-12T16:41:29.899Z"
 }

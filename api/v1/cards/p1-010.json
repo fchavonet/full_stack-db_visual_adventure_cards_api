@@ -2,12 +2,12 @@
   "id": "p1-010",
   "part": 1,
   "number": "010",
-  "title_jp": "空をドライブ",
+  "year": 1991,
   "rarity": "standard",
+  "title_jp": "空をドライブ",
+  "title_en": "Drive through the sky",
+  "title_fr": "Conduire dans le ciel",
   "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-010.png",
   "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-010.png",
-  "updated_at": "2025-09-10T08:43:02.506Z",
-  "year": 1991,
-  "title_en": "Drive through the sky",
-  "title_fr": "Conduire dans le ciel"
+  "updated_at": "2025-09-12T16:41:29.895Z"
 }
