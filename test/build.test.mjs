@@ -188,7 +188,7 @@ describe("API creation functions", () => {
       const result = await convertRowToCard(csvRow);
 
       expect(result.card.id).toBe("p1-005");
-      expect(result.card.part).toBe(1);
+      expect(result.card.part).toBe("1");
       expect(result.card.number).toBe("005");
       expect(result.card.title_jp).toBe("Test Card JP");
       expect(result.card.title_en).toBe("Test Card EN");

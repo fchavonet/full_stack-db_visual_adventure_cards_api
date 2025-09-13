@@ -144,9 +144,9 @@ export async function findExistingImagePath(imageType, partNumber, formattedNumb
 
 // Convert CSV row to card object.
 export async function convertRowToCard(csvRow) {
-  const partNumber = Number(csvRow.part);
+  const partNumber = String(csvRow.part).trim();
 
-  if (!Number.isInteger(partNumber) || partNumber < 1) {
+  if (!isValidValue(partNumber)) {
     throw new Error("Invalid part number: " + String(csvRow.part));
   }
 

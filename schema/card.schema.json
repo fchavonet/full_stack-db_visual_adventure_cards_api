@@ -16,11 +16,11 @@
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^p\\d+-\\d{3}[a-z]?$"
+      "pattern": "^p[\\w]+-\\d{3}[a-z]?$"
     },
     "part": {
-      "type": "integer",
-      "minimum": 1
+      "type": "string",
+      "minLength": 1
     },
     "number": {
       "type": "string",
