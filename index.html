@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dragon Ball Visual Adventure Cards API</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Dragon Ball Visual Adventure Cards API</h1>
+
+            <p>
+                This service provides structured data on Dragon Ball Visual Adventure cards, produced by Bandai in the 1990s.
+                <br>
+                It enables developers to easily create tools and applications around this iconic series.
+                <br>
+                The API is open source and free to use, designed to support the community and simplify card management.
+            </p>
+
+            <h2>API Documentation</h2>
+
+            <h3>API Endpoints</h3>
+
+            <ul>
+                <li>
+                    <code>api/v1/meta.json</code>
+                    <span>Returns API metadata including part information and statistics.</span>
+                </li>
+
+                <li>
+                    <code>api/v1/cards.json</code>
+                    <span>Returns an array of all cards with complete data.</span>
+                </li>
+
+                <li>
+                    <code>api/v1/parts/{part_number}.json</code>
+                    <span>Returns cards for a specified part (e.g. parts/1.json).</span>
+                </li>
+
+                <li>
+                    <code>api/v1/cards/{card_id}.json</code>
+                    <span>Returns a single card object (e.g. cards/p1-001.json).</span>
+                </li>
+            </ul>
+
+            <h3>Card Object Properties</h3>
+
+            <ul>
+                <li>id - Unique card identifier.</li>
+                <li>part - Part number.</li>
+                <li>number - Card number.</li>
+                <li>year - Release year.</li>
+                <li>rarity - Card rarity (prism, standard, special).</li>
+                <li>title_jp - Japanese title.</li>
+                <li>title_en - English title.</li>
+                <li>title_fr - French title.</li>
+                <li>front_image_url - Front image URL.</li>
+                <li>back_image_url - Back image URL.</li>
+                <li>updated_at- Last update timestamp.</li>
+            </ul>
+
+            <h2>Test the API</h2>
+
+            <div>
+                <label for="part-select">Select a part:</label>
+
+                <select id="part-select" disabled>
+                    <option value="">Choose a part</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="card-select">Select a card:</label>
+
+                <select id="card-select" disabled>
+                    <option value="">First, choose a part</option>
+                </select>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>Card Details</h2>
+
+                <div id="card-details">
+                    <p>No part selected.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        let allCardData = [];
+
+        const partSelect = document.getElementById("part-select");
+        const cardSelect = document.getElementById("card-select");
+        const cardDetails = document.getElementById("card-details");
+
+        // Load available parts from API metadata.
+        async function loadParts() {
+            try {
+                const response = await fetch("./api/v1/meta.json");
+                const metadata = await response.json();
+
+                for (const partNumber in metadata.parts) {
+                    const option = document.createElement("option");
+                    option.value = partNumber;
+                    option.textContent = "Part " + partNumber;
+                    partSelect.appendChild(option);
+                }
+
+                partSelect.disabled = false;
+            } catch (error) {
+                console.error(error.message);
+            }
+        }
+
+        // Load cards for selected part.
+        async function loadCards(partNumber) {
+            try {
+                const response = await fetch("./api/v1/parts/" + partNumber + ".json");
+                allCardData = await response.json();
+
+                cardSelect.innerHTML = '<option value="">Choose a card</option>';
+
+                for (const cardData of allCardData) {
+                    const option = document.createElement("option");
+                    option.value = cardData.id;
+                    option.textContent = cardData.number + " - " + cardData.title_jp;
+                    cardSelect.appendChild(option);
+                }
+
+                cardSelect.disabled = false;
+            } catch (error) {
+                console.error(error.message);
+            }
+        }
+
+        // Fetch single card data by ID.
+        async function loadSingleCard(cardId) {
+            try {
+                const response = await fetch("./api/v1/cards/" + cardId + ".json");
+
+                return await response.json();
+            } catch (error) {
+                console.error(error.message);
+            }
+        }
+
+        // Display selected card details.
+        async function displayCardDetails(selectedCard) {
+            const cardData = await loadSingleCard(selectedCard);
+
+            cardDetails.innerHTML = "";
+
+            const cardInfoList = document.createElement("ul");
+
+            const cardInfo = [
+                "Part: " + cardData.part,
+                "Number: " + cardData.number,
+                "Year: " + cardData.year,
+                "Rarity: " + cardData.rarity,
+                "Title (EN): " + cardData.title_en,
+                "Title (JP): " + cardData.title_jp,
+                "Title (FR): " + cardData.title_fr
+            ];
+
+            cardInfo.forEach(info => {
+                const li = document.createElement("li");
+                li.textContent = info;
+                cardInfoList.appendChild(li);
+            });
+
+            cardDetails.appendChild(cardInfoList);
+
+            const cardContainer = document.createElement("div");
+            cardContainer.className = "card-container";
+
+            const cardFlipper = document.createElement("div");
+            cardFlipper.className = "card-flipper";
+
+            // Front side.
+            const frontSide = document.createElement("div");
+            frontSide.className = "card-front";
+            const frontImg = document.createElement("img");
+            frontImg.src = cardData.front_image_url;
+            frontImg.alt = "Card front";
+            frontSide.appendChild(frontImg);
+
+            // Back side.
+            const backSide = document.createElement("div");
+            backSide.className = "card-back";
+            const backImg = document.createElement("img");
+            backImg.src = cardData.back_image_url;
+            backImg.alt = "Card back";
+            backSide.appendChild(backImg);
+
+            cardFlipper.appendChild(frontSide);
+            cardFlipper.appendChild(backSide);
+            cardContainer.appendChild(cardFlipper);
+
+            cardDetails.appendChild(cardContainer);
+        }
+
+        // Handle part selection changes.
+        partSelect.addEventListener("change", () => {
+            if (partSelect.value) {
+                loadCards(partSelect.value);
+                cardDetails.innerHTML = "<p>No card selected.</p>";
+            } else {
+                cardSelect.innerHTML = '<option value="">First, select a part</option>';
+                cardSelect.disabled = true;
+                cardDetails.innerHTML = "<p>No part selected.</p>";
+            }
+        });
+
+        // Handle card selection changes.
+        cardSelect.addEventListener("change", () => {
+            if (cardSelect.value) {
+                displayCardDetails(cardSelect.value);
+            } else {
+                cardDetails.innerHTML = "<p>No card selected.</p>";
+            }
+        });
+
+        // Initialize the application.
+        loadParts();
+    </script>
+</body>
+
+</html>
