@@ -1,6 +1,6 @@
 {
   "id": "p1-004",
-  "part": 1,
+  "part": "1",
   "number": "004",
   "year": 1991,
   "rarity": "prism",
@@ -9,5 +9,5 @@
   "title_fr": "Un incident dans la forêt",
   "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-004.png",
   "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-004.png",
-  "updated_at": "2025-09-13T13:51:21.954Z"
+  "updated_at": "2025-09-13T19:13:43.852Z"
 }

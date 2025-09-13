@@ -1,7 +1,7 @@
 [
   {
     "id": "p1-001",
-    "part": 1,
+    "part": "1",
     "number": "001",
     "year": 1991,
     "rarity": "prism",
@@ -10,11 +10,11 @@
     "title_fr": "Je prends ce trésor !",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-001.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-001.png",
-    "updated_at": "2025-09-13T13:51:21.953Z"
+    "updated_at": "2025-09-13T19:13:43.850Z"
   },
   {
     "id": "p1-002",
-    "part": 1,
+    "part": "1",
     "number": "002",
     "year": 1991,
     "rarity": "prism",
@@ -23,11 +23,11 @@
     "title_fr": "Dragon Boy",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-002.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-002.png",
-    "updated_at": "2025-09-13T13:51:21.953Z"
+    "updated_at": "2025-09-13T19:13:43.851Z"
   },
   {
     "id": "p1-003",
-    "part": 1,
+    "part": "1",
     "number": "003",
     "year": 1991,
     "rarity": "prism",
@@ -36,11 +36,11 @@
     "title_fr": "Pilote du ciel",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-003.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-003.png",
-    "updated_at": "2025-09-13T13:51:21.954Z"
+    "updated_at": "2025-09-13T19:13:43.851Z"
   },
   {
     "id": "p1-004",
-    "part": 1,
+    "part": "1",
     "number": "004",
     "year": 1991,
     "rarity": "prism",
@@ -49,11 +49,11 @@
     "title_fr": "Un incident dans la forêt",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-004.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-004.png",
-    "updated_at": "2025-09-13T13:51:21.954Z"
+    "updated_at": "2025-09-13T19:13:43.852Z"
   },
   {
     "id": "p1-005",
-    "part": 1,
+    "part": "1",
     "number": "005",
     "year": 1991,
     "rarity": "prism",
@@ -62,11 +62,11 @@
     "title_fr": "Le plus fort contre le plus féroce",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-005.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-005.png",
-    "updated_at": "2025-09-13T13:51:21.954Z"
+    "updated_at": "2025-09-13T19:13:43.852Z"
   },
   {
     "id": "p1-006",
-    "part": 1,
+    "part": "1",
     "number": "006",
     "year": 1991,
     "rarity": "prism",
@@ -75,11 +75,11 @@
     "title_fr": "Piccolo contre Freezer",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-006.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-006.png",
-    "updated_at": "2025-09-13T13:51:21.955Z"
+    "updated_at": "2025-09-13T19:13:43.852Z"
   },
   {
     "id": "p1-007",
-    "part": 1,
+    "part": "1",
     "number": "007",
     "year": 1991,
     "rarity": "standard",
@@ -88,11 +88,11 @@
     "title_fr": "Allons à l’aventure !",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-007.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-007.png",
-    "updated_at": "2025-09-13T13:51:21.955Z"
+    "updated_at": "2025-09-13T19:13:43.852Z"
   },
   {
     "id": "p1-008",
-    "part": 1,
+    "part": "1",
     "number": "008",
     "year": 1991,
     "rarity": "standard",
@@ -101,11 +101,11 @@
     "title_fr": "Un imprévu !",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-008.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-008.png",
-    "updated_at": "2025-09-13T13:51:21.955Z"
+    "updated_at": "2025-09-13T19:13:43.853Z"
   },
   {
     "id": "p1-009",
-    "part": 1,
+    "part": "1",
     "number": "009",
     "year": 1991,
     "rarity": "standard",
@@ -114,11 +114,11 @@
     "title_fr": "Baigné par la lumière de la lune…",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-009.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-009.png",
-    "updated_at": "2025-09-13T13:51:21.955Z"
+    "updated_at": "2025-09-13T19:13:43.853Z"
   },
   {
     "id": "p1-010",
-    "part": 1,
+    "part": "1",
     "number": "010",
     "year": 1991,
     "rarity": "standard",
@@ -127,11 +127,11 @@
     "title_fr": "Conduire dans le ciel",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-010.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-010.png",
-    "updated_at": "2025-09-13T13:51:21.956Z"
+    "updated_at": "2025-09-13T19:13:43.854Z"
   },
   {
     "id": "p1-011",
-    "part": 1,
+    "part": "1",
     "number": "011",
     "year": 1991,
     "rarity": "standard",
@@ -140,11 +140,11 @@
     "title_fr": "Poursuite aérienne",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-011.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-011.png",
-    "updated_at": "2025-09-13T13:51:21.956Z"
+    "updated_at": "2025-09-13T19:13:43.854Z"
   },
   {
     "id": "p1-012",
-    "part": 1,
+    "part": "1",
     "number": "012",
     "year": 1991,
     "rarity": "standard",
@@ -153,11 +153,11 @@
     "title_fr": "Un jour de repos",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-012.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-012.png",
-    "updated_at": "2025-09-13T13:51:21.956Z"
+    "updated_at": "2025-09-13T19:13:43.854Z"
   },
   {
     "id": "p1-013",
-    "part": 1,
+    "part": "1",
     "number": "013",
     "year": 1991,
     "rarity": "standard",
@@ -166,11 +166,11 @@
     "title_fr": "Partie de baseball",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-013.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-013.png",
-    "updated_at": "2025-09-13T13:51:21.957Z"
+    "updated_at": "2025-09-13T19:13:43.855Z"
   },
   {
     "id": "p1-014",
-    "part": 1,
+    "part": "1",
     "number": "014",
     "year": 1991,
     "rarity": "standard",
@@ -179,11 +179,11 @@
     "title_fr": "Dans un monde primitif",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-014.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-014.png",
-    "updated_at": "2025-09-13T13:51:21.957Z"
+    "updated_at": "2025-09-13T19:13:43.855Z"
   },
   {
     "id": "p1-015",
-    "part": 1,
+    "part": "1",
     "number": "015",
     "year": 1991,
     "rarity": "standard",
@@ -192,11 +192,11 @@
     "title_fr": "Allons-y !",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-015.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-015.png",
-    "updated_at": "2025-09-13T13:51:21.957Z"
+    "updated_at": "2025-09-13T19:13:43.855Z"
   },
   {
     "id": "p1-016",
-    "part": 1,
+    "part": "1",
     "number": "016",
     "year": 1991,
     "rarity": "standard",
@@ -205,11 +205,11 @@
     "title_fr": "Bulma",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-016.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-016.png",
-    "updated_at": "2025-09-13T13:51:21.957Z"
+    "updated_at": "2025-09-13T19:13:43.855Z"
   },
   {
     "id": "p1-017",
-    "part": 1,
+    "part": "1",
     "number": "017",
     "year": 1991,
     "rarity": "standard",
@@ -218,11 +218,11 @@
     "title_fr": "On va gagner !",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-017.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-017.png",
-    "updated_at": "2025-09-13T13:51:21.958Z"
+    "updated_at": "2025-09-13T19:13:43.856Z"
   },
   {
     "id": "p1-018",
-    "part": 1,
+    "part": "1",
     "number": "018",
     "year": 1991,
     "rarity": "standard",
@@ -231,11 +231,11 @@
     "title_fr": "À moi maintenant !",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-018.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-018.png",
-    "updated_at": "2025-09-13T13:51:21.958Z"
+    "updated_at": "2025-09-13T19:13:43.856Z"
   },
   {
     "id": "p1-019",
-    "part": 1,
+    "part": "1",
     "number": "019",
     "year": 1991,
     "rarity": "standard",
@@ -244,11 +244,11 @@
     "title_fr": "Pour une jeunesse éternelle !",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-019.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-019.png",
-    "updated_at": "2025-09-13T13:51:21.958Z"
+    "updated_at": "2025-09-13T19:13:43.856Z"
   },
   {
     "id": "p1-020",
-    "part": 1,
+    "part": "1",
     "number": "020",
     "year": 1991,
     "rarity": "standard",
@@ -257,11 +257,11 @@
     "title_fr": "Tous ensemble",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-020.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-020.png",
-    "updated_at": "2025-09-13T13:51:21.959Z"
+    "updated_at": "2025-09-13T19:13:43.856Z"
   },
   {
     "id": "p1-021",
-    "part": 1,
+    "part": "1",
     "number": "021",
     "year": 1991,
     "rarity": "standard",
@@ -270,11 +270,11 @@
     "title_fr": "Combat aérien",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-021.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-021.png",
-    "updated_at": "2025-09-13T13:51:21.959Z"
+    "updated_at": "2025-09-13T19:13:43.857Z"
   },
   {
     "id": "p1-022",
-    "part": 1,
+    "part": "1",
     "number": "022",
     "year": 1991,
     "rarity": "standard",
@@ -283,11 +283,11 @@
     "title_fr": "À la Muscle Tower",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-022.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-022.png",
-    "updated_at": "2025-09-13T13:51:21.959Z"
+    "updated_at": "2025-09-13T19:13:43.857Z"
   },
   {
     "id": "p1-023",
-    "part": 1,
+    "part": "1",
     "number": "023",
     "year": 1991,
     "rarity": "standard",
@@ -296,11 +296,11 @@
     "title_fr": "23ᵉ Tournoi d'arts martiaux",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-023.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-023.png",
-    "updated_at": "2025-09-13T13:51:21.960Z"
+    "updated_at": "2025-09-13T19:13:43.857Z"
   },
   {
     "id": "p1-024",
-    "part": 1,
+    "part": "1",
     "number": "024",
     "year": 1991,
     "rarity": "standard",
@@ -309,11 +309,11 @@
     "title_fr": "Cible repérée !",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-024.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-024.png",
-    "updated_at": "2025-09-13T13:51:21.960Z"
+    "updated_at": "2025-09-13T19:13:43.857Z"
   },
   {
     "id": "p1-025",
-    "part": 1,
+    "part": "1",
     "number": "025",
     "year": 1991,
     "rarity": "standard",
@@ -322,11 +322,11 @@
     "title_fr": "Ma mitrailleuse",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-025.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-025.png",
-    "updated_at": "2025-09-13T13:51:21.960Z"
+    "updated_at": "2025-09-13T19:13:43.858Z"
   },
   {
     "id": "p1-026",
-    "part": 1,
+    "part": "1",
     "number": "026",
     "year": 1991,
     "rarity": "standard",
@@ -335,11 +335,11 @@
     "title_fr": "J’y vais !",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-026.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-026.png",
-    "updated_at": "2025-09-13T13:51:21.960Z"
+    "updated_at": "2025-09-13T19:13:43.858Z"
   },
   {
     "id": "p1-027",
-    "part": 1,
+    "part": "1",
     "number": "027",
     "year": 1991,
     "rarity": "standard",
@@ -348,11 +348,11 @@
     "title_fr": "Tu vas bien ?",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-027.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-027.png",
-    "updated_at": "2025-09-13T13:51:21.961Z"
+    "updated_at": "2025-09-13T19:13:43.858Z"
   },
   {
     "id": "p1-028",
-    "part": 1,
+    "part": "1",
     "number": "028",
     "year": 1991,
     "rarity": "standard",
@@ -361,11 +361,11 @@
     "title_fr": "Tu es sûr que ça va ?",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-028.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-028.png",
-    "updated_at": "2025-09-13T13:51:21.961Z"
+    "updated_at": "2025-09-13T19:13:43.859Z"
   },
   {
     "id": "p1-029",
-    "part": 1,
+    "part": "1",
     "number": "029",
     "year": 1991,
     "rarity": "standard",
@@ -374,11 +374,11 @@
     "title_fr": "Arrivée",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-029.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-029.png",
-    "updated_at": "2025-09-13T13:51:21.961Z"
+    "updated_at": "2025-09-13T19:13:43.859Z"
   },
   {
     "id": "p1-030",
-    "part": 1,
+    "part": "1",
     "number": "030",
     "year": 1991,
     "rarity": "standard",
@@ -387,11 +387,11 @@
     "title_fr": "Le grand patron",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-030.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-030.png",
-    "updated_at": "2025-09-13T13:51:21.962Z"
+    "updated_at": "2025-09-13T19:13:43.859Z"
   },
   {
     "id": "p1-031",
-    "part": 1,
+    "part": "1",
     "number": "031",
     "year": 1991,
     "rarity": "standard",
@@ -400,11 +400,11 @@
     "title_fr": "En plein entraînement",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-031.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-031.png",
-    "updated_at": "2025-09-13T13:51:21.962Z"
+    "updated_at": "2025-09-13T19:13:43.859Z"
   },
   {
     "id": "p1-032",
-    "part": 1,
+    "part": "1",
     "number": "032",
     "year": 1991,
     "rarity": "standard",
@@ -413,11 +413,11 @@
     "title_fr": "Le Roi des Démons",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-032.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-032.png",
-    "updated_at": "2025-09-13T13:51:21.962Z"
+    "updated_at": "2025-09-13T19:13:43.860Z"
   },
   {
     "id": "p1-033",
-    "part": 1,
+    "part": "1",
     "number": "033",
     "year": 1991,
     "rarity": "standard",
@@ -426,11 +426,11 @@
     "title_fr": "Ça s’est envolé !",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-033.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-033.png",
-    "updated_at": "2025-09-13T13:51:21.962Z"
+    "updated_at": "2025-09-13T19:13:43.860Z"
   },
   {
     "id": "p1-034",
-    "part": 1,
+    "part": "1",
     "number": "034",
     "year": 1991,
     "rarity": "standard",
@@ -439,11 +439,11 @@
     "title_fr": "On fait une petite pause",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-034.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-034.png",
-    "updated_at": "2025-09-13T13:51:21.963Z"
+    "updated_at": "2025-09-13T19:13:43.860Z"
   },
   {
     "id": "p1-035",
-    "part": 1,
+    "part": "1",
     "number": "035",
     "year": 1991,
     "rarity": "standard",
@@ -452,11 +452,11 @@
     "title_fr": "Le combat acharné commence",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-035.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-035.png",
-    "updated_at": "2025-09-13T13:51:21.963Z"
+    "updated_at": "2025-09-13T19:13:43.861Z"
   },
   {
     "id": "p1-036",
-    "part": 1,
+    "part": "1",
     "number": "036",
     "year": 1991,
     "rarity": "standard",
@@ -465,11 +465,11 @@
     "title_fr": "En avant ! Saiyan",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-036.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-036.png",
-    "updated_at": "2025-09-13T13:51:21.963Z"
+    "updated_at": "2025-09-13T19:13:43.861Z"
   },
   {
     "id": "p1-037",
-    "part": 1,
+    "part": "1",
     "number": "037",
     "year": 1991,
     "rarity": "standard",
@@ -478,11 +478,11 @@
     "title_fr": "Terre, donne-moi ta force !",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-037.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-037.png",
-    "updated_at": "2025-09-13T13:51:21.964Z"
+    "updated_at": "2025-09-13T19:13:43.861Z"
   },
   {
     "id": "p1-038",
-    "part": 1,
+    "part": "1",
     "number": "038",
     "year": 1991,
     "rarity": "standard",
@@ -491,11 +491,11 @@
     "title_fr": "Ici, c’est la planète Namek",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-038.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-038.png",
-    "updated_at": "2025-09-13T13:51:21.964Z"
+    "updated_at": "2025-09-13T19:13:43.862Z"
   },
   {
     "id": "p1-039",
-    "part": 1,
+    "part": "1",
     "number": "039",
     "year": 1991,
     "rarity": "standard",
@@ -504,11 +504,11 @@
     "title_fr": "Ça y est, on est arrivés !",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-039.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-039.png",
-    "updated_at": "2025-09-13T13:51:21.964Z"
+    "updated_at": "2025-09-13T19:13:43.862Z"
   },
   {
     "id": "p1-040",
-    "part": 1,
+    "part": "1",
     "number": "040",
     "year": 1991,
     "rarity": "standard",
@@ -517,11 +517,11 @@
     "title_fr": "Ah, mon chapeau !",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-040.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-040.png",
-    "updated_at": "2025-09-13T13:51:21.964Z"
+    "updated_at": "2025-09-13T19:13:43.863Z"
   },
   {
     "id": "p1-041",
-    "part": 1,
+    "part": "1",
     "number": "041",
     "year": 1991,
     "rarity": "standard",
@@ -530,11 +530,11 @@
     "title_fr": "Tout le monde t’attend !",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-041.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-041.png",
-    "updated_at": "2025-09-13T13:51:21.965Z"
+    "updated_at": "2025-09-13T19:13:43.863Z"
   },
   {
     "id": "p1-042",
-    "part": 1,
+    "part": "1",
     "number": "042",
     "year": 1991,
     "rarity": "standard",
@@ -543,6 +543,6 @@
     "title_fr": "L’heure du dîner",
     "front_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-042.png",
     "back_image_url": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/back/part_1-042.png",
-    "updated_at": "2025-09-13T13:51:21.965Z"
+    "updated_at": "2025-09-13T19:13:43.863Z"
   }
 ]
