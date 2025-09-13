@@ -12,12 +12,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body>
-    <main>
-        <section>
-            <h1>Dragon Ball Visual Adventure Cards API</h1>
+<body class="w-full h-full lg:h-screen p-2 flex justify-center items-center text-xs text-slate-900">
+    <main class="flex flex-col lg:flex-row gap-2">
+        <section class="flex flex-col gap-2 border">
+            <h1 class="w-full px-2 py-2 text-lg lg:text-2xl font-bold text-center border-b">Dragon Ball Visual Adventure Cards API</h1>
 
-            <p>
+            <p class="px-2">
                 This service provides structured data on Dragon Ball Visual Adventure cards, produced by Bandai in the 1990s.
                 <br>
                 It enables developers to easily create tools and applications around this iconic series.
@@ -25,72 +25,92 @@
                 The API is open source and free to use, designed to support the community and simplify card management.
             </p>
 
-            <h2>API Documentation</h2>
+            <h2 class="px-2 text-lg lg:text-xl font-bold">API Documentation</h2>
 
-            <h3>API Endpoints</h3>
+            <div class="px-2">
+                <h3 class="mb-1 text-base font-bold">API Endpoints</h3>
 
-            <ul>
-                <li>
-                    <code>api/v1/meta.json</code>
-                    <span>Returns API metadata including part information and statistics.</span>
-                </li>
+                <ul class="flex flex-col gap-2">
+                    <li>
+                        <a class="flex flex-col cursor-pointer" href="./api/v1/meta.json" target="_blank" rel="noopener noreferrer">
+                            <code class="px-2 py-1 border">api/v1/meta.json</code>
+                            <span class="mt-1 px-2">Returns API metadata including part information and statistics.</span>
+                        </a>
+                    </li>
 
-                <li>
-                    <code>api/v1/cards.json</code>
-                    <span>Returns an array of all cards with complete data.</span>
-                </li>
+                    <li>
+                        <a class="flex flex-col cursor-pointer" href="./api/v1/cards.json" target="_blank" rel="noopener noreferrer">
+                            <code class="px-2 py-1 border">api/v1/cards.json</code>
+                            <span class="mt-1 px-2">Returns an array of all cards with complete data.</span>
+                        </a>
+                    </li>
 
-                <li>
-                    <code>api/v1/parts/{part_number}.json</code>
-                    <span>Returns cards for a specified part (e.g. parts/1.json).</span>
-                </li>
+                    <li>
+                        <a class="flex flex-col cursor-pointer" href="./api/v1/parts/1.json" target="_blank" rel="noopener noreferrer">
+                            <code class="px-2 py-1 border">api/v1/parts/{part_number}.json</code>
+                            <span class="mt-1 px-2">Returns cards for a specified part (e.g. parts/1.json).</span>
+                        </a>
+                    </li>
 
-                <li>
-                    <code>api/v1/cards/{card_id}.json</code>
-                    <span>Returns a single card object (e.g. cards/p1-001.json).</span>
-                </li>
-            </ul>
-
-            <h3>Card Object Properties</h3>
-
-            <ul>
-                <li><code>id</code> - Unique card identifier.</li>
-                <li><code>part</code> - Part number.</li>
-                <li><code>number</code> - Card number.</li>
-                <li><code>year</code> - Release year.</li>
-                <li><code>rarity</code> - Card rarity (prism, standard, special).</li>
-                <li><code>title_jp</code> - Japanese title.</li>
-                <li><code>title_en</code> - English title.</li>
-                <li><code>title_fr</code> - French title.</li>
-                <li><code>front_image_url</code> - Front image URL.</li>
-                <li><code>back_image_url</code> - Back image URL.</li>
-                <li><code>updated_at</code> - Last update timestamp.</li>
-            </ul>
-
-            <h2>Test the API</h2>
-
-            <div>
-                <label for="part-select">Select a part:</label>
-
-                <select id="part-select" class="border" disabled>
-                    <option value="">Choose a part</option>
-                </select>
+                    <li>
+                        <a class="flex flex-col cursor-pointer" href="./api/v1/cards/p1-001.json" target="_blank" rel="noopener noreferrer">
+                            <code class="px-2 py-1 border">api/v1/cards/{card_id}.json</code>
+                            <span class="mt-1 px-2">Returns a single card object (e.g. cards/p1-001.json).</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
 
-            <div>
-                <label for="card-select">Select a card:</label>
+            <div class="px-2">
+                <h3 class="mb-1 text-base font-bold">Card Object Properties</h3>
 
-                <select id="card-select" class="border" disabled>
-                    <option value="">First, choose a part</option>
-                </select>
+                <ul class="px-2 py-1  flex flex-col border">
+                    <li><code>id</code> - Unique card identifier.</li>
+                    <li><code>part</code> - Part number.</li>
+                    <li><code>number</code> - Card number.</li>
+                    <li><code>year</code> - Release year.</li>
+                    <li><code>rarity</code> - Card rarity (prism, standard, special).</li>
+                    <li><code>title_jp</code> - Japanese title.</li>
+                    <li><code>title_en</code> - English title.</li>
+                    <li><code>title_fr</code> - French title.</li>
+                    <li><code>front_image_url</code> - Front image URL.</li>
+                    <li><code>back_image_url</code> - Back image URL.</li>
+                    <li><code>updated_at</code> - Last update timestamp.</li>
+                </ul>
             </div>
+
+            <p class="mt-auto px-2 py-2">
+                Dragon Ball and related characters are trademarks of Akira Toriyama, Bandai and Toei Animation.
+                <br>
+                This API is for educational and non-commercial purposes only.
+            </p>
         </section>
 
-        <section>
-            <div>
-                <h2>Card Details</h2>
+        <section class="w-full lg:w-80 flex flex-col gap-2 border">
+            <div class="flex flex-col gap-2">
+                <h2 class="w-full px-2 py-2 text-lg lg:text-2xl font-bold text-center border-b">Test the API</h2>
 
-                <div id="card-details">
+                <div class="px-2 flex flex-col">
+                    <label for="part-select">Select a part:</label>
+
+                    <select id="part-select" class="border disabled:text-slate-300 cursor-pointer disabled:cursor-not-allowed" disabled>
+                        <option value="">Choose a part</option>
+                    </select>
+                </div>
+
+                <div class="px-2 flex flex-col">
+                    <label for="card-select">Select a card:</label>
+
+                    <select id="card-select" class="border disabled:text-slate-300 cursor-pointer disabled:cursor-not-allowed" disabled>
+                        <option value="">First, choose a part</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="flex flex-col">
+                <h2 class="px-2 text-lg lg:text-xl font-bold">Card Details</h2>
+
+                <div id="card-details" class="lg:min-h-[515px] px-2 pb-2 flex flex-col gap-2">
                     <p>No part selected.</p>
                 </div>
             </div>
@@ -182,11 +202,12 @@
             cardDetails.appendChild(cardInfoList);
 
             const cardContainer = document.createElement("div");
-            cardContainer.className = "w-64 h-96 cursor-pointer";
+            cardContainer.className = "w-64 h-96 mx-auto cursor-pointer";
             cardContainer.style.perspective = "1000px";
 
             const cardFlipper = document.createElement("div");
-            cardFlipper.className = "w-full h-full relative  transition-transform duration-700";
+            cardFlipper.className = "w-full h-full relative transition-transform duration-700";
+            cardFlipper.style.transformOrigin = "center";
             cardFlipper.style.transformStyle = "preserve-3d";
 
             // Front side.
