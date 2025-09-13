@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Dragon Ball Visual Adventure Cards API</title>
+    <meta name="description" content="An open-source API providing structured data on Dragon Ball Visual Adventure cards for community-driven tools and applications.">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
 <body>
@@ -68,7 +72,7 @@
             <div>
                 <label for="part-select">Select a part:</label>
 
-                <select id="part-select" disabled>
+                <select id="part-select" class="border" disabled>
                     <option value="">Choose a part</option>
                 </select>
             </div>
@@ -76,7 +80,7 @@
             <div>
                 <label for="card-select">Select a card:</label>
 
-                <select id="card-select" disabled>
+                <select id="card-select" class="border" disabled>
                     <option value="">First, choose a part</option>
                 </select>
             </div>
@@ -164,8 +168,8 @@
                 "Number: " + cardData.number,
                 "Year: " + cardData.year,
                 "Rarity: " + cardData.rarity,
-                "Title (EN): " + cardData.title_en,
                 "Title (JP): " + cardData.title_jp,
+                "Title (EN): " + cardData.title_en,
                 "Title (FR): " + cardData.title_fr
             ];
 
@@ -178,23 +182,32 @@
             cardDetails.appendChild(cardInfoList);
 
             const cardContainer = document.createElement("div");
-            cardContainer.className = "card-container";
+            cardContainer.className = "w-64 h-96 cursor-pointer";
+            cardContainer.style.perspective = "1000px";
 
             const cardFlipper = document.createElement("div");
-            cardFlipper.className = "card-flipper";
+            cardFlipper.className = "w-full h-full relative  transition-transform duration-700";
+            cardFlipper.style.transformStyle = "preserve-3d";
 
             // Front side.
             const frontSide = document.createElement("div");
-            frontSide.className = "card-front";
+            frontSide.className = "w-full h-full absolute inset-0";
+            frontSide.style.backfaceVisibility = "hidden";
+
             const frontImg = document.createElement("img");
+            frontImg.className = "w-full h-full object-cover rounded-lg";
             frontImg.src = cardData.front_image_url;
             frontImg.alt = "Card front";
             frontSide.appendChild(frontImg);
 
             // Back side.
             const backSide = document.createElement("div");
-            backSide.className = "card-back";
+            backSide.className = "w-full h-full absolute inset-0";
+            backSide.style.backfaceVisibility = "hidden";
+            backSide.style.transform = "rotateY(-180deg)";
+
             const backImg = document.createElement("img");
+            backImg.className = "w-full h-full object-cover rounded-lg";
             backImg.src = cardData.back_image_url;
             backImg.alt = "Card back";
             backSide.appendChild(backImg);
@@ -202,6 +215,18 @@
             cardFlipper.appendChild(frontSide);
             cardFlipper.appendChild(backSide);
             cardContainer.appendChild(cardFlipper);
+
+            let isFlipped = false;
+
+            cardContainer.addEventListener("click", () => {
+                if (isFlipped) {
+                    cardFlipper.style.transform = "rotateY(0deg)";
+                } else {
+                    cardFlipper.style.transform = "rotateY(180deg)";
+                }
+
+                isFlipped = !isFlipped;
+            });
 
             cardDetails.appendChild(cardContainer);
         }
