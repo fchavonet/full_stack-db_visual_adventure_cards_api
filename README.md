@@ -110,7 +110,7 @@ npm run build
 
 ### How to use:
 
-1. Open `index.html` in a browser to access the API documentation and a basic demonstration of possible API usage.
+1. Open `index.html` in a browser to access the API documentation and a basic demonstration.
 
 You can also test the web application online by clicking [here](https://fchavonet.github.io/web-db_visual_adventure_cards_api/). 
 
