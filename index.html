@@ -15,7 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="w-full h-full lg:h-screen p-2 flex justify-center items-center text-xs text-slate-900">
+<body class="w-full h-full lg:h-screen p-2 flex flex-col justify-center items-center text-xs text-slate-900">
     <main class="flex flex-col lg:flex-row gap-2">
         <section class="flex flex-col gap-2 border border-slate-300 rounded-lg">
             <h1 class="w-full px-2 py-2 text-lg lg:text-2xl font-bold text-center border-b border-slate-300">Dragon Ball Visual Adventure Cards API</h1>
@@ -117,12 +117,6 @@
                     <li><code class="text-sky-700">updated_at</code> <i class="bi bi-arrow-right"></i> Last update timestamp.</li>
                 </ul>
             </div>
-
-            <p class="mt-auto mb-2 px-4">
-                This API is for educational and non-commercial purposes only.
-                <br>
-                Dragon Ball and related characters are trademarks of <a class="text-sky-700" href="https://fr.wikipedia.org/wiki/Akira_Toriyama" target="_blank">Akira Toriyama</a>, <a class="text-sky-700" href="https://fr.wikipedia.org/wiki/Bandai" target="_blank">Bandai</a> and <a class="text-sky-700" href="https://fr.wikipedia.org/wiki/Toei_Animation" target="_blank">Toei Animation</a>.
-            </p>
         </section>
 
         <section class="w-full lg:w-80 flex flex-col gap-2 border border-slate-300 rounded-lg">
@@ -149,12 +143,19 @@
             <div class="flex flex-col">
                 <h2 class="px-2 text-lg lg:text-xl font-bold">Card Details</h2>
 
-                <div id="card-details" class="lg:min-h-[515px] px-2 pb-2 flex flex-col gap-2">
+                <div id="card-details" class="lg:min-h-[480px] mb-1 lg:mb-0 px-2 pb-2 flex flex-col gap-2">
                     <p>No part selected.</p>
                 </div>
             </div>
         </section>
     </main>
+
+    <footer>
+        <p class="px-4 text-center">
+            This API is for educational and non-commercial purposes only.
+            Dragon Ball and related characters are trademarks of <a class="text-sky-700" href="https://fr.wikipedia.org/wiki/Akira_Toriyama" target="_blank">Akira Toriyama</a>, <a class="text-sky-700" href="https://fr.wikipedia.org/wiki/Bandai" target="_blank">Bandai</a> and <a class="text-sky-700" href="https://fr.wikipedia.org/wiki/Toei_Animation" target="_blank">Toei Animation</a>.
+        </p>
+    </footer>
 
     <script>
         // Copy text to clipboard with visual feedback.
@@ -267,7 +268,7 @@
             cardDetails.appendChild(cardInfoList);
 
             const cardContainer = document.createElement("div");
-            cardContainer.className = "w-64 h-96 mx-auto cursor-pointer";
+            cardContainer.className = "w-59 h-86 mx-auto cursor-pointer";
             cardContainer.style.perspective = "1000px";
 
             const cardFlipper = document.createElement("div");
