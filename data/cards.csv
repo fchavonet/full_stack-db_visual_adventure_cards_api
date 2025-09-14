@@ -8,10 +8,10 @@ part,number,year,rarity,title_jp,title_en,title_fr
 1,7,1991,standard,冒険にいこう！,Let’s go on an adventure!,Allons à l’aventure !
 1,8,1991,standard,ハプニング,Unexpected event!,Un imprévu !
 1,9,1991,standard,月の光を あびて……,Bathed in the moonlight…,Baigné par la lumière de la lune…
-1,10,1991,standard,空をドライブ,Drive through the sky,Conduire dans le ciel
+1,10,1991,standard,空をドライブ,A drive in the sky,Virée dans le ciel
 1,11,1991,standard,エアーチェイス,Air chase,Poursuite aérienne
 1,12,1991,standard,休みの日の光景,A scene from a day off,Un jour de repos
-1,13,1991,standard,ベースボールプレイ,Baseball play,Partie de baseball
+1,13,1991,standard,ベースボールプレイ,Playing Baseball,Partie de baseball
 1,14,1991,standard,原始な世界で,In a primitive world,Dans un monde primitif
 1,15,1991,standard,レッツ、GO!,Let’s go!,Allons-y !
 1,16,1991,standard,ブルマ,Bulma,Bulma
@@ -34,10 +34,52 @@ part,number,year,rarity,title_jp,title_en,title_fr
 1,33,1991,standard,飛んだぞ！,It took off!,Ça s’est envolé !
 1,34,1991,standard,ちょっとひとやすみ,Let’s take a short rest,On fait une petite pause
 1,35,1991,standard,激闘開始,The fierce battle begins,Le combat acharné commence
-1,36,1991,standard,いくぞ！サイヤ人,Let’s go! Saiyan,En avant ! Saiyan
-1,37,1991,standard,地球よ、オラに力を！,"Earth, give me your energy!","Terre, donne-moi ta force !"
+1,36,1991,standard,いくぞ！サイヤ人,Let’s go! Saiyan,En avant ! Guerrier
+1,37,1991,standard,地球よ、オラに力を！,"Earth, lend me your energy!","Terre, prête-moi ton énergie !"
 1,38,1991,standard,ここはナメック星,This is Planet Namek,"Ici, c’est la planète Namek"
 1,39,1991,standard,さあ 着いたわよ！,We’ve arrived!,"Ça y est, on est arrivés !"
 1,40,1991,standard,あっ帽子が！,"Ah, my hat!","Ah, mon chapeau !"
 1,41,1991,standard,みんな待ってるよ！,Everyone’s waiting for you!,Tout le monde t’attend !
 1,42,1991,standard,ディナータイム,Dinner time,L’heure du dîner
+2,43,1991,prism,ハッピーホリディ!,Happy Holiday!,Bonnes vacances !
+2,44,1991,prism,神龍と悟空,Shenron and Goku,Shenron et Son Goku
+2,45,1991,prism,孫悟空突撃！,Goku charges!,Son Goku fonce !
+2,46,1991,prism,スーパーサイヤ人!!,Super Saiyan!!,Super Guerrier !!
+2,47,1991,prism,天下分け目の超決戦!!,The fate-deciding super showdown!!,La grande bataille décisive !!
+2,48,1991,prism,ギニュー特戦隊到着!!,The Ginyu Force arrives!!,Le Commando Ginyu arrive !!
+2,49,1991,standard,大格闘!,All-out melee!,Combat acharné !
+2,50,1991,standard,LET'S FLY!!,Let's fly!,Envolons-nous !!
+2,51,1991,standard,かかってこいっ!!,Bring it on!!,Viens te battre !!
+2,52,1991,standard,ある夏の日,One summer day,Un jour d’été
+2,53,1991,standard,射てーっ!!,Fire!!,Feu !!
+2,54,1991,standard,因縁の対決!,Grudge Match!,Le duel des ennemis jurés !
+2,55,1991,standard,ホールドアップ!!,Hands Up!!,Les mains en l'air !!
+2,56,1991,standard,二人でパトロール,On patrol together,Patrouille à deux
+2,57,1991,standard,クリリン対マジュニア,Kuririn vs. Ma Junior,Krilin vs Ma Junior
+2,58,1991,standard,私が武天老師です,I’m Master Roshi,Je suis Tortue Géniale
+2,59,1991,standard,うわわわわっ!!,Waaaah!!,Aaaaah !!
+2,60,1991,standard,勝つのは誰だ!?,Who will win!?,Qui va gagner !?
+2,61,1991,standard,やっつけろ!!,Take him down!!,Mets-le à terre !!
+2,62,1991,standard,レッドリボン軍の恐怖!,The terror of the Red Ribbon Army!,La terreur de l’Armée du Ruban Rouge !
+2,63,1991,standard,キーーン!!,Ziiing!!,Ziiing!!
+2,64,1991,standard,ワイルド・ブルマ,Wild Bulma,Bulma sauvage
+2,65,1991,standard,許さねぇっ!!,I won’t forgive you!!,Je ne te le pardonnerai pas !!
+2,66,1991,standard,悟空大活劇!!,Goku in all-out action!!,Goku en pleine action !!
+2,67,1991,standard,いよいよ天下一武道会,"At last, the World Martial Arts Tournament","Enfin, le tournoi des arts martiaux !"
+2,68,1991,standard,つかまってろよ!,Hang on!,Accroche-toi !
+2,69,1991,standard,試合開始!,The match begins!,Le combat commence !
+2,70,1991,standard,か…勝ったぞ!!,We did it… We won!!,Ça y est… On a gagné !!
+2,71,1991,standard,パワーアップ!!,Power up!!,Montée en puissance !!
+2,72,1991,standard,群雄割拠!,Rival warlords vie for supremacy,Les rivaux se disputent la suprématie !
+2,73,1991,standard,さあツーリングだ！,"All right, time for a ride!",En route pour une balade !
+2,74,1991,standard,ついに対決の時,"Finally, the time for the showdown","Enfin, l’heure de l’affrontement"
+2,75,1991,standard,急カーブ!!,Sharp turn!!,Virage serré !!
+2,76,1991,standard,凶悪サイヤ人タッグ,Vicious Saiyan tag team,Duo de Saiyans maléfiques
+2,77,1991,standard,甘く見ないでね!!,Don’t underestimate me!!,Ne me sous-estime pas !!
+2,78,1991,standard,ザーボンの怒り,Zarbon’s anger,La colère de Zarbon
+2,79,1991,standard,両者ゆずらず,Neither side yields,Aucun des deux n'abandonne
+2,80,1991,standard,ヤッホー!! オラ悟空!,"Yoo-hoo!! It’s me, Son Goku!","Youhou !! C’est moi, Son Goku !"
+2,81,1991,standard,がんばれデンデ!,"Hang in there, Dende!","Courage, Dendé !"
+2,82,1991,standard,ドラゴンボールはどこに!?,Where are the Dragon Balls?!,Où sont les Dragon Balls ?!
+2,83,1991,standard,似合う?,Does it look good?,Est-ce que ça va ?
+2,84,1991,standard,地獄以上の恐怖,A fear beyond hell,Une terreur pire que l’enfer
