@@ -16,11 +16,11 @@
 </head>
 
 <body class="w-full h-full lg:h-screen p-2 flex flex-col justify-center items-center text-xs text-slate-900">
-    <main class="flex flex-col lg:flex-row gap-2">
+    <main class="flex flex-col lg:flex-row gap-4">
         <section class="flex flex-col gap-2 border border-slate-300 rounded-lg">
             <h1 class="w-full px-2 py-2 text-lg lg:text-2xl font-bold text-center border-b border-slate-300">Dragon Ball Visual Adventure Cards API</h1>
 
-            <p class="px-4">
+            <p class="px-2">
                 This service provides structured data on <a class="text-sky-700" href="https://www.youtube.com/watch?v=vCU1JeaFlsA&list=PLmn6HKEaARYSZ4KyB0EPLudoUl5P3ojOd" target="_blank">Dragon Ball Visual Adventure cards</a>, produced by <a class="text-sky-700" href="https://fr.wikipedia.org/wiki/Bandai" target="_blank">Bandai</a> in the 1990s.
                 <br>
                 It enables developers to easily create tools and applications around this iconic series.
@@ -117,6 +117,11 @@
                     <li><code class="text-sky-700">updated_at</code> <i class="bi bi-arrow-right"></i> Last update timestamp.</li>
                 </ul>
             </div>
+
+            <div class="mb-2 px-2">
+                <h3 class="mb-1 text-base font-bold">API Status</h3>
+                <p id="api-status" class="px-2 flex items-center font-mono gap-2"></p>
+            </div>
         </section>
 
         <section class="w-full lg:w-80 flex flex-col gap-2 border border-slate-300 rounded-lg">
@@ -140,10 +145,10 @@
                 </div>
             </div>
 
-            <div class="flex flex-col">
+            <div class="h-full flex flex-col">
                 <h2 class="px-2 text-lg lg:text-xl font-bold">Card Details</h2>
 
-                <div id="card-details" class="lg:min-h-[480px] mb-1 lg:mb-0 px-2 pb-2 flex flex-col gap-2">
+                <div id="card-details" class="h-full mb-2 px-4 flex flex-col justify-between items-start gap-2">
                     <p>No part selected.</p>
                 </div>
             </div>
@@ -151,13 +156,20 @@
     </main>
 
     <footer>
-        <p class="px-4 text-center">
+        <p class="mt-2 px-4 text-center">
             This API is for educational and non-commercial purposes only.
             Dragon Ball and related characters are trademarks of <a class="text-sky-700" href="https://fr.wikipedia.org/wiki/Akira_Toriyama" target="_blank">Akira Toriyama</a>, <a class="text-sky-700" href="https://fr.wikipedia.org/wiki/Bandai" target="_blank">Bandai</a> and <a class="text-sky-700" href="https://fr.wikipedia.org/wiki/Toei_Animation" target="_blank">Toei Animation</a>.
         </p>
     </footer>
 
     <script>
+        let allCardData = [];
+
+        const apiStatus = document.getElementById("api-status");
+        const partSelect = document.getElementById("part-select");
+        const cardSelect = document.getElementById("card-select");
+        const cardDetails = document.getElementById("card-details");
+
         // Copy text to clipboard with visual feedback.
         async function copyToClipboard(text, iconElement) {
             try {
@@ -184,11 +196,76 @@
             }
         }
 
-        let allCardData = [];
+        // Update API status indicator with connection state and last update date.
+        async function updateApiStatus() {
+            let isOnline = false;
+            let updatedAt = "unknown";
 
-        const partSelect = document.getElementById("part-select");
-        const cardSelect = document.getElementById("card-select");
-        const cardDetails = document.getElementById("card-details");
+            try {
+                const response = await fetch("./api/v1/meta.json");
+                const metadata = await response.json();
+
+                isOnline = true;
+                updatedAt = new Date(metadata.generated_at).toLocaleDateString("en-US");
+            } catch (error) {
+                console.error(error.message);
+                isOnline = false;
+                updatedAt = "unknown";
+            }
+
+            // Create status dot indicator.
+            const pointContainer = document.createElement("span");
+            pointContainer.className = "relative";
+
+            const staticDot = document.createElement("span");
+            staticDot.className = "w-2 h-2 block rounded-full";
+
+            if (isOnline) {
+                staticDot.classList.add("bg-green-500");
+            } else {
+                staticDot.classList.add("bg-red-500");
+            }
+
+            pointContainer.appendChild(staticDot);
+
+            // Create animated ping effect for status dot.
+            const pingDot = document.createElement("span");
+            pingDot.className = "w-2 h-2 absolute top-0 left-0 rounded-full animate-ping";
+
+            if (isOnline) {
+                pingDot.classList.add("bg-green-500");
+            } else {
+                pingDot.classList.add("bg-red-500");
+            }
+
+            pointContainer.appendChild(pingDot);
+
+            apiStatus.appendChild(pointContainer);
+
+            // Display status text (ONLINE/OFFLINE).
+            const statusText = document.createElement("span");
+            statusText.className = "px-2 py-1 rounded";
+
+            if (isOnline) {
+                statusText.textContent = "ONLINE";
+                statusText.classList.add("text-green-800", "bg-green-100");
+            } else {
+                statusText.textContent = "OFFLINE";
+                statusText.classList.add("text-red-800", "bg-red-100");
+            }
+
+            apiStatus.appendChild(statusText);
+
+            // Display last update date.
+            const dashText = document.createTextNode("- Last update: ");
+
+            apiStatus.appendChild(dashText);
+
+            const dateText = document.createElement("span");
+            dateText.textContent = updatedAt;
+
+            apiStatus.appendChild(dateText);
+        }
 
         // Load available parts from API metadata.
         async function loadParts() {
@@ -340,6 +417,7 @@
         });
 
         // Initialize the application.
+        updateApiStatus()
         loadParts();
     </script>
 </body>
