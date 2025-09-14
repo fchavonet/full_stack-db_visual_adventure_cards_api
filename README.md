@@ -141,7 +141,7 @@ You can also test the web application online by clicking [here](https://fchavone
 
 ## <span id="thanks">Thanks</span>
 
-- Special thanks to Ninjalex for assisting with the development of the database, particularly by providing high-quality scans of the cards.
+- Special thanks to Ninjalex for assisting with the development of the database.
 - Also thanks to all contributors and the Dragon Ball fan community for supporting this project.
 
 ## <span id="authors">Authors</span>
