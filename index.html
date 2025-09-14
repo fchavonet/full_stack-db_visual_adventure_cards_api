@@ -8,17 +8,20 @@
     <title>Dragon Ball Visual Adventure Cards API</title>
     <meta name="description" content="An open-source API providing structured data on Dragon Ball Visual Adventure cards for community-driven tools and applications.">
 
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
 <body class="w-full h-full lg:h-screen p-2 flex justify-center items-center text-xs text-slate-900">
     <main class="flex flex-col lg:flex-row gap-2">
-        <section class="flex flex-col gap-2 border">
-            <h1 class="w-full px-2 py-2 text-lg lg:text-2xl font-bold text-center border-b">Dragon Ball Visual Adventure Cards API</h1>
+        <section class="flex flex-col gap-2 border border-slate-300 rounded-lg">
+            <h1 class="w-full px-2 py-2 text-lg lg:text-2xl font-bold text-center border-b border-slate-300">Dragon Ball Visual Adventure Cards API</h1>
 
-            <p class="px-2">
-                This service provides structured data on Dragon Ball Visual Adventure cards, produced by Bandai in the 1990s.
+            <p class="px-4">
+                This service provides structured data on <a class="text-sky-700" href="https://www.youtube.com/watch?v=vCU1JeaFlsA&list=PLmn6HKEaARYSZ4KyB0EPLudoUl5P3ojOd" target="_blank">Dragon Ball Visual Adventure cards</a>, produced by <a class="text-sky-700" href="https://fr.wikipedia.org/wiki/Bandai" target="_blank">Bandai</a> in the 1990s.
                 <br>
                 It enables developers to easily create tools and applications around this iconic series.
                 <br>
@@ -32,31 +35,63 @@
 
                 <ul class="flex flex-col gap-2">
                     <li>
-                        <a class="flex flex-col cursor-pointer" href="./api/v1/meta.json" target="_blank" rel="noopener noreferrer">
-                            <code class="px-2 py-1 border">api/v1/meta.json</code>
-                            <span class="mt-1 px-2">Returns API metadata including part information and statistics.</span>
-                        </a>
+                        <code class="px-2 py-1 relative flex flex-col font-mono text-sky-700 rounded bg-slate-100">
+                            <a class="cursor-pointer" href="./api/v1/meta.json" target="_blank" rel="noopener noreferrer">
+                                api/v1/meta.json
+                            </a>
+
+                            <i class="bi bi-copy absolute right-2 top-1/2 -translate-y-1/2 cursor-pointer hover:text-sky-900 transition-colors z-9999"
+                               onclick="copyToClipboard('api/v1/meta.json', this)"
+                               title="Copy to clipboard">
+                            </i>
+                        </code>
+
+                        <p class="px-2">Returns API metadata.</p>
                     </li>
 
                     <li>
-                        <a class="flex flex-col cursor-pointer" href="./api/v1/cards.json" target="_blank" rel="noopener noreferrer">
-                            <code class="px-2 py-1 border">api/v1/cards.json</code>
-                            <span class="mt-1 px-2">Returns an array of all cards with complete data.</span>
-                        </a>
+                        <code class="px-2 py-1 relative flex flex-col font-mono text-sky-700 rounded bg-slate-100">
+                            <a class="cursor-pointer" href="./api/v1/cards.json" target="_blank" rel="noopener noreferrer">
+                                api/v1/cards.json
+                            </a>
+
+                            <i class="bi bi-copy absolute right-2 top-1/2 -translate-y-1/2 cursor-pointer hover:text-sky-900 transition-colors z-9999"
+                               onclick="copyToClipboard('api/v1/cards.json', this)"
+                               title="Copy to clipboard">
+                            </i>
+                        </code>
+
+                        <p class="px-2">Returns an array of all cards with complete data.</p>
                     </li>
 
                     <li>
-                        <a class="flex flex-col cursor-pointer" href="./api/v1/parts/1.json" target="_blank" rel="noopener noreferrer">
-                            <code class="px-2 py-1 border">api/v1/parts/{part_number}.json</code>
-                            <span class="mt-1 px-2">Returns cards for a specified part (e.g. parts/1.json).</span>
-                        </a>
+                        <code class="px-2 py-1 relative flex flex-col font-mono text-sky-700 rounded bg-slate-100">
+                            <a class="cursor-pointer" href="./api/v1/parts/1.json" target="_blank" rel="noopener noreferrer">
+                                api/v1/parts/{part_number}.json
+                            </a>
+
+                            <i class="bi bi-copy absolute right-2 top-1/2 -translate-y-1/2 cursor-pointer hover:text-sky-900 transition-colors z-9999"
+                               onclick="copyToClipboard('/api/v1/parts/1.json', this)"
+                               title="Copy to clipboard">
+                            </i>
+                        </code>
+
+                        <p class="px-2">Returns cards for a specified part (<span class="italic">e.g. parts/1.json</span>).</p>
                     </li>
 
                     <li>
-                        <a class="flex flex-col cursor-pointer" href="./api/v1/cards/p1-001.json" target="_blank" rel="noopener noreferrer">
-                            <code class="px-2 py-1 border">api/v1/cards/{card_id}.json</code>
-                            <span class="mt-1 px-2">Returns a single card object (e.g. cards/p1-001.json).</span>
-                        </a>
+                        <code class="px-2 py-1 relative flex flex-col font-mono text-sky-700 rounded bg-slate-100">
+                            <a class="cursor-pointer" href="./api/v1/cards/p1-001.json" target="_blank" rel="noopener noreferrer">
+                                api/v1/cards/{card_id}.json
+                            </a>
+
+                            <i class="bi bi-copy absolute right-2 top-1/2 -translate-y-1/2 cursor-pointer hover:text-sky-900 transition-colors z-9999"
+                               onclick="copyToClipboard('/api/v1/cards/p1-001.json', this)"
+                               title="Copy to clipboard">
+                            </i>
+                        </code>
+
+                        <p class="px-2">Returns a single card object (<span class="italic">e.g. cards/p1-001.json</span>).</p>
                     </li>
                 </ul>
             </div>
@@ -64,36 +99,40 @@
             <div class="px-2">
                 <h3 class="mb-1 text-base font-bold">Card Object Properties</h3>
 
-                <ul class="px-2 py-1  flex flex-col border">
-                    <li><code>id</code> - Unique card identifier.</li>
-                    <li><code>part</code> - Part number.</li>
-                    <li><code>number</code> - Card number.</li>
-                    <li><code>year</code> - Release year.</li>
-                    <li><code>rarity</code> - Card rarity (prism, standard, special).</li>
-                    <li><code>title_jp</code> - Japanese title.</li>
-                    <li><code>title_en</code> - English title.</li>
-                    <li><code>title_fr</code> - French title.</li>
-                    <li><code>front_image_url</code> - Front image URL.</li>
-                    <li><code>back_image_url</code> - Back image URL.</li>
-                    <li><code>updated_at</code> - Last update timestamp.</li>
+                <p class="mb-2 px-2">
+                    Card objects represent individual trading cards with complete metadata for display, search, and collection management.
+                </p>
+
+                <ul class="px-2 py-1 flex flex-col font-mono rounded bg-slate-100">
+                    <li><code class="text-sky-700">id</code> <i class="bi bi-arrow-right"></i> Unique card identifier.</li>
+                    <li><code class="text-sky-700">part</code> <i class="bi bi-arrow-right"></i> Part number.</li>
+                    <li><code class="text-sky-700">number</code> <i class="bi bi-arrow-right"></i> Card number.</li>
+                    <li><code class="text-sky-700">year</code> <i class="bi bi-arrow-right"></i> Release year.</li>
+                    <li><code class="text-sky-700">rarity</code> <i class="bi bi-arrow-right"></i> Card rarity (prism, standard, special).</li>
+                    <li><code class="text-sky-700">title_jp</code> <i class="bi bi-arrow-right"></i> Japanese title.</li>
+                    <li><code class="text-sky-700">title_en</code> <i class="bi bi-arrow-right"></i> English title.</li>
+                    <li><code class="text-sky-700">title_fr</code> <i class="bi bi-arrow-right"></i> French title.</li>
+                    <li><code class="text-sky-700">front_image_url</code> <i class="bi bi-arrow-right"></i> Front image URL.</li>
+                    <li><code class="text-sky-700">back_image_url</code> <i class="bi bi-arrow-right"></i> Back image URL.</li>
+                    <li><code class="text-sky-700">updated_at</code> <i class="bi bi-arrow-right"></i> Last update timestamp.</li>
                 </ul>
             </div>
 
-            <p class="mt-auto px-2 py-2">
-                Dragon Ball and related characters are trademarks of Akira Toriyama, Bandai and Toei Animation.
+            <p class="mt-auto mb-2 px-4">
+                Dragon Ball and related characters are trademarks of <a class="text-sky-700" href="https://fr.wikipedia.org/wiki/Akira_Toriyama" target="_blank">Akira Toriyama</a>, <a class="text-sky-700" href="https://fr.wikipedia.org/wiki/Bandai" target="_blank">Bandai</a> and <a class="text-sky-700" href="https://fr.wikipedia.org/wiki/Toei_Animation" target="_blank">Toei Animation</a>.
                 <br>
                 This API is for educational and non-commercial purposes only.
             </p>
         </section>
 
-        <section class="w-full lg:w-80 flex flex-col gap-2 border">
+        <section class="w-full lg:w-80 flex flex-col gap-2 border border-slate-300 rounded-lg">
             <div class="flex flex-col gap-2">
-                <h2 class="w-full px-2 py-2 text-lg lg:text-2xl font-bold text-center border-b">Test the API</h2>
+                <h2 class="w-full px-2 py-2 text-lg lg:text-2xl font-bold text-center border-b border-slate-300">Test the API</h2>
 
                 <div class="px-2 flex flex-col">
                     <label for="part-select">Select a part:</label>
 
-                    <select id="part-select" class="border disabled:text-slate-300 cursor-pointer disabled:cursor-not-allowed" disabled>
+                    <select id="part-select" class="p-1 font-mono rounded bg-slate-100 disabled:text-slate-300 cursor-pointer disabled:cursor-not-allowed" disabled>
                         <option value="">Choose a part</option>
                     </select>
                 </div>
@@ -101,7 +140,7 @@
                 <div class="px-2 flex flex-col">
                     <label for="card-select">Select a card:</label>
 
-                    <select id="card-select" class="border disabled:text-slate-300 cursor-pointer disabled:cursor-not-allowed" disabled>
+                    <select id="card-select" class="p-1 font-mono rounded bg-slate-100 disabled:bg-slate-100 disabled:text-slate-300 cursor-pointer disabled:cursor-not-allowed" disabled>
                         <option value="">First, choose a part</option>
                     </select>
                 </div>
@@ -118,6 +157,32 @@
     </main>
 
     <script>
+        // Copy text to clipboard with visual feedback.
+        async function copyToClipboard(text, iconElement) {
+            try {
+                await navigator.clipboard.writeText(text);
+
+                const originalClass = iconElement.className;
+                iconElement.className = iconElement.className.replace("bi-copy", "bi-check");
+                iconElement.style.color = "#0369a1";
+
+                setTimeout(() => {
+                    iconElement.className = originalClass;
+                    iconElement.style.color = "";
+                }, 2000);
+
+            } catch (error) {
+                console.error(error.message);
+
+                const textArea = document.createElement("textarea");
+                textArea.value = text;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand("copy");
+                document.body.removeChild(textArea);
+            }
+        }
+
         let allCardData = [];
 
         const partSelect = document.getElementById("part-select");
@@ -184,18 +249,18 @@
             const cardInfoList = document.createElement("ul");
 
             const cardInfo = [
-                "Part: " + cardData.part,
-                "Number: " + cardData.number,
-                "Year: " + cardData.year,
-                "Rarity: " + cardData.rarity,
-                "Title (JP): " + cardData.title_jp,
-                "Title (EN): " + cardData.title_en,
-                "Title (FR): " + cardData.title_fr
+                '<span class="font-semibold">Part:</span> ' + cardData.part,
+                '<span class="font-semibold">Number:</span> ' + cardData.number,
+                '<span class="font-semibold">Year:</span> ' + cardData.year,
+                '<span class="font-semibold">Rarity:</span> ' + cardData.rarity,
+                '<img class="inline" src="https://flagsapi.com/JP/flat/16.png"> ' + cardData.title_jp,
+                '<img class="inline" src="https://flagsapi.com/US/flat/16.png"> ' + cardData.title_en,
+                '<img class="inline" src="https://flagsapi.com/FR/flat/16.png"> ' + cardData.title_fr
             ];
 
             cardInfo.forEach(info => {
                 const li = document.createElement("li");
-                li.textContent = info;
+                li.innerHTML = info;
                 cardInfoList.appendChild(li);
             });
 
