@@ -55,7 +55,7 @@ Dragon Ball and all related characters are trademarks of Akira Toriyama, Bandai,
     - Run the following command:
 
 ```
-git clone https://github.com/fchavonet/web-db_visual_adventure_cards_api.git
+git clone https://github.com/fchavonet/full_stack-db_visual_adventure_cards_api.git
 ```
 
 2. Open the cloned repository.
