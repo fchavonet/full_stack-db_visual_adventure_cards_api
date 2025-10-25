@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/fchavonet/web-db_visual_adventure_cards_api/schema/card.schema.json",
+  "$id": "https://github.com/fchavonet/full_stack-db_visual_adventure_cards_api/schema/card.schema.json",
   "title": "Visual Adventure Card",
   "type": "object",
   "required": [

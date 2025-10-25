@@ -39,18 +39,18 @@ describe("Utility functions", () => {
 
   describe("createFullImageUrl", () => {
     it("Should create full image URL >", () => {
-      const base1 = "https://fchavonet.github.io/web-db_visual_adventure_cards_api";
-      const base2 = "https://fchavonet.github.io/web-db_visual_adventure_cards_api/";
+      const base1 = "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api";
+      const base2 = "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/";
 
       const path1 = "assets/images/front/part_1-000.jpg";
       const path2 = "assets/images/front/part_1-001.jpg";
       const path3 = "assets/images/front/part_1-042.jpg";
       const path4 = "assets/images/front/part_3-100.jpg";
 
-      expect(createFullImageUrl(base1, path1)).toBe("https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-000.jpg");
-      expect(createFullImageUrl(base2, path2)).toBe("https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-001.jpg");
-      expect(createFullImageUrl(base2, path3)).toBe("https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_1-042.jpg");
-      expect(createFullImageUrl(base2, path4)).toBe("https://fchavonet.github.io/web-db_visual_adventure_cards_api/assets/images/front/part_3-100.jpg");
+      expect(createFullImageUrl(base1, path1)).toBe("https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1-000.jpg");
+      expect(createFullImageUrl(base2, path2)).toBe("https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1-001.jpg");
+      expect(createFullImageUrl(base2, path3)).toBe("https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1-042.jpg");
+      expect(createFullImageUrl(base2, path4)).toBe("https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_3-100.jpg");
     });
   });
 

@@ -1,12 +1,12 @@
 {
+  "homepage": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/",
   "name": "db_visual_adventure_cards_api",
   "version": "1.0.0",
   "description": "Dragon Ball Visual Adventure Cards API",
   "type": "module",
-  "homepage": "https://fchavonet.github.io/web-db_visual_adventure_cards_api/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fchavonet/web-db_visual_adventure_cards_api"
+    "url": "git+https://github.com/fchavonet/full_stack-db_visual_adventure_cards_api"
   },
   "author": "Fabien Chavonet <fchavonet@mail.fr> (https://fchavonet.dev/)",
   "license": "MIT",

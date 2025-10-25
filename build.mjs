@@ -3,7 +3,7 @@ import addFormats from "ajv-formats";
 import { parse } from "csv-parse";
 import fs from "fs-extra";
 
-const BASE_URL = "https://fchavonet.github.io/web-db_visual_adventure_cards_api/";
+const BASE_URL = "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/";
 const CSV_FILE = "./data/cards.csv";
 const SCHEMA_FILE = "./schema/card.schema.json";
 const OUTPUT_DIRECTORY = "./api/v1/";
