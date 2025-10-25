@@ -84,7 +84,7 @@ npm run build
 
 1. Open `index.html` in a browser to access the API documentation and a basic demonstration.
 
-You can also test the project online by clicking [here](https://fchavonet.github.io/web-db_visual_adventure_cards_api/). 
+You can also test the project online by clicking [here](https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/). 
 
 <table>
     <tr>
