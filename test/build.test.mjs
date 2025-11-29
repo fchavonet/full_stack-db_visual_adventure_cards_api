@@ -158,7 +158,7 @@ describe("API creation functions", () => {
       // No image exists.
       vi.spyOn(fs, "pathExists").mockResolvedValue(false);
       result = await findExistingImagePath("front", 1, "999");
-      expect(result.path).toBe("assets/images/front/part_1-999.png");
+      expect(result.path).toBe("assets/images/front/part_1-999.webp");
       expect(result.exists).toBe(false);
     });
   });
