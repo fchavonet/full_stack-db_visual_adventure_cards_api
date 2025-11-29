@@ -137,7 +137,7 @@ export async function findExistingImagePath(imageType, partNumber, formattedNumb
     }
   }
 
-  const defaultPath = createImagePath(imageType, partNumber, formattedNumber, "png");
+  const defaultPath = createImagePath(imageType, partNumber, formattedNumber, "webp");
 
   return { path: defaultPath, exists: false };
 }
