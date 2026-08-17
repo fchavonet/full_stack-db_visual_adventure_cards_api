@@ -1,0 +1,13 @@
+{
+  "id": "p1-010",
+  "part": "1",
+  "number": "010",
+  "year": 1991,
+  "rarity": "standard",
+  "title_jp": "空をドライブ",
+  "title_en": "A drive in the sky",
+  "title_fr": "Virée dans le ciel",
+  "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1-010.webp",
+  "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1-010.webp",
+  "updated_at": "2026-08-17T17:05:29.381Z"
+}
