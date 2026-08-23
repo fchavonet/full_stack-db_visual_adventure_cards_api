@@ -1,0 +1,13 @@
+{
+  "id": "p3-123",
+  "part": "3",
+  "number": "123",
+  "year": 1991,
+  "rarity": "standard",
+  "title_jp": "ギニューの大誤算！",
+  "title_en": "Ginyu's big miscalculation!",
+  "title_fr": "La grosse erreur de calcul de Ginyu !",
+  "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_3-123.webp",
+  "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_3-123.webp",
+  "updated_at": "2026-08-23T11:51:44.056Z"
+}
