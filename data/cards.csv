@@ -1,84 +1,120 @@
 part,number,year,rarity,title_jp,title_en,title_fr
-1,1,1991,prism,宝ものはいただきだ！,I'll take that treasure!,Je prends ce trésor !
-1,2,1991,prism,ドラゴンボーイ,Dragon Boy,Dragon Boy
-1,3,1991,prism,スカイパイロット,Sky Pilot,Pilote du ciel
-1,4,1991,prism,森の中での出来事,An incident in the forest,Un incident dans la forêt
-1,5,1991,prism,最強VS最凶,The strongest VS the fiercest,Le plus fort contre le plus féroce
-1,6,1991,prism,ピッコロVSフリーザ,Piccolo VS Frieza,Piccolo contre Freezer
-1,7,1991,standard,冒険にいこう！,Let’s go on an adventure!,Allons à l’aventure !
-1,8,1991,standard,ハプニング,Unexpected event!,Un imprévu !
-1,9,1991,standard,月の光を あびて……,Bathed in the moonlight…,Baigné par la lumière de la lune…
-1,10,1991,standard,空をドライブ,A drive in the sky,Virée dans le ciel
-1,11,1991,standard,エアーチェイス,Air chase,Poursuite aérienne
-1,12,1991,standard,休みの日の光景,A scene from a day off,Un jour de repos
-1,13,1991,standard,ベースボールプレイ,Playing Baseball,Partie de baseball
-1,14,1991,standard,原始な世界で,In a primitive world,Dans un monde primitif
-1,15,1991,standard,レッツ、GO!,Let’s go!,Allons-y !
-1,16,1991,standard,ブルマ,Bulma,Bulma
-1,17,1991,standard,優勝するぞ！,We’re going to win!,On va gagner !
-1,18,1991,standard,次はオイラだ！,My turn!,À moi maintenant !
-1,19,1991,standard,永遠の若さを！,To eternal youth!,Pour une jeunesse éternelle !
-1,20,1991,standard,みんな揃って,All together,Tous ensemble
-1,21,1991,standard,ドッグファイト,Dogfight,Combat aérien
-1,22,1991,standard,マッスルタワーにて,At Muscle Tower,À la Muscle Tower
-1,23,1991,standard,第23回天下一武道会,23rd World Martial Arts Tournament,23ᵉ Tournoi d'arts martiaux
-1,24,1991,standard,目標発見！,Target found!,Cible repérée !
-1,25,1991,standard,わたしの機関銃,My machine gun,Ma mitrailleuse
-1,26,1991,standard,いってきま～す！,I’m leaving!,J’y vais !
-1,27,1991,standard,大丈夫か？,Are you okay?,Tu vas bien ?
-1,28,1991,standard,ホントに大丈夫か？,Are you really okay?,Tu es sûr que ça va ?
-1,29,1991,standard,到着,Arrival,Arrivée
-1,30,1991,standard,一番エライ人,The boss,Le grand patron
-1,31,1991,standard,ただ今修業中,In training right now,En plein entraînement
-1,32,1991,standard,魔族の王,The Demon King,Le Roi des Démons
-1,33,1991,standard,飛んだぞ！,It took off!,Ça s’est envolé !
-1,34,1991,standard,ちょっとひとやすみ,Let’s take a short rest,On fait une petite pause
-1,35,1991,standard,激闘開始,The fierce battle begins,Le combat acharné commence
-1,36,1991,standard,いくぞ！サイヤ人,Let’s go! Saiyan,En avant ! Guerrier
-1,37,1991,standard,地球よ、オラに力を！,"Earth, lend me your energy!","Terre, prête-moi ton énergie !"
-1,38,1991,standard,ここはナメック星,This is Planet Namek,"Ici, c’est la planète Namek"
-1,39,1991,standard,さあ 着いたわよ！,We’ve arrived!,"Ça y est, on est arrivés !"
-1,40,1991,standard,あっ帽子が！,"Ah, my hat!","Ah, mon chapeau !"
-1,41,1991,standard,みんな待ってるよ！,Everyone’s waiting for you!,Tout le monde t’attend !
-1,42,1991,standard,ディナータイム,Dinner time,L’heure du dîner   
-2,43,1991,prism,ハッピーホリデイ！,Happy Holiday!,Joyeuses vacances !
-2,44,1991,prism,仲間と悟空,Goku and friends,Goku et ses amis
-2,45,1991,prism,スポーツマン,Sportsman,Le sportif
-2,46,1991,prism,スーパーサイヤ人！,Super Saiyan!,Super Saiyan !
-2,47,1991,prism,天下分け目の超決戦！,The ultimate decisive battle!,Le combat décisif ultime !
-2,48,1991,prism,ギニュー特戦隊到着！,The Ginyu Force arrives!,Le Commando Ginyu arrive !
-2,49,1991,standard,大格闘！,A great battle!,Un grand combat !
-2,50,1991,standard,LET’S FLY！,Let’s fly!,Envolons-nous !
-2,51,1991,standard,かかってこいや！,Bring it on!,Viens te battre !
-2,52,1991,standard,ある夏の日,One summer day,Un jour d’été
-2,53,1991,standard,射てーっ！,Fire!,Feu !
-2,54,1991,standard,因縁の対決！,A fateful showdown!,Un duel fatidique !
-2,55,1991,standard,ホールドアップ！,Hands up!,Haut les mains !
-2,56,1991,standard,二人でパトロール,Patrolling together,Patrouille à deux
-2,57,1991,standard,クリリン対マジュニア,Krillin vs. Ma Junior,Krilin contre Majunior
-2,58,1991,standard,私が武天老師です,I am Master Roshi,Je suis Tortue Géniale
-2,59,1991,standard,うわわわわっ！,Whoa!,Ouah !
-2,60,1991,standard,勝つのは誰だ！？,Who will win!?,Qui va gagner !?
-2,61,1991,standard,やっつけろ！,Take him down!,Mets-le à terre !
-2,62,1991,standard,レッドリボン軍の恐怖！,The terror of the Red Ribbon army!,La terreur de l’armée du Ruban Rouge !
-2,63,1991,standard,キーーン！,Kiiiin!,Kiiiin !
-2,64,1991,standard,ワイルド・ブルマ,Wild Bulma,Bulma sauvage
-2,65,1991,standard,許さねえっ！,I won't forgive you!,Je ne te pardonnerai pas !
-2,66,1991,standard,悟空大活劇！,Goku's Great Adventure!,La grande aventure de Goku !
-2,67,1991,standard,いよいよ天下一武道会,"At last, the World Martial Arts Tournament","Enfin, le tournoi des arts martiaux"
-2,68,1991,standard,つかまってろよ！,Hang on!,Accroche-toi !
-2,69,1991,standard,試合開始！,The match begins!,Le match commence !
-2,70,1991,standard,か…勝ったぞ！,I... I won!,J’ai... j’ai gagné !
-2,71,1991,standard,パワーアップ！,Power up!,Puissance maximale !
-2,72,1991,standard,群雄割拠！,Heroes vie for supremacy!,Les héros s’affrontent pour la suprématie !
-2,73,1991,standard,さあツーリングだ！,Let’s go for a ride!,En route pour une balade !
-2,74,1991,standard,ついに対決の時,"At last, the time for the showdown","Enfin, l’heure de l’affrontement"
-2,75,1991,standard,急カーブ！,Sharp turn!,Virage serré !
-2,76,1991,standard,凶悪サイヤ人タッグ,The vicious Saiyan tag team,Le redoutable duo de Saiyans
-2,77,1991,standard,甘く見ないでね！,Don't underestimate me!,Ne me sous-estime pas !
-2,78,1991,standard,ザーボンの怒り,Zarbon's anger,La colère de Zarbon
-2,79,1991,standard,両者ゆずらず,Neither side gives in,Aucun des deux ne cède
-2,80,1991,standard,ヤッホー！オラ悟空！,Yoo-hoo! I'm Goku!,"Youhou ! Moi, c’est Goku !"
-2,82,1991,standard,ドラゴンボールはどこに！？,Where are the Dragon Balls!?,Où sont les Dragon Balls ?!
-2,83,1991,standard,似合う？,Does it suit me?,Ça me va ?
-2,84,1991,standard,地獄以上の恐怖,Terror worse than hell,Une terreur pire que l’enfer
+1,1,1991,prism,"宝ものはいただきだ！","I'll take that treasure!","Je prends ce trésor !"
+1,2,1991,prism,"ドラゴンボーイ","Dragon Boy","Dragon Boy"
+1,3,1991,prism,"スカイパイロット","Sky Pilot","Pilote du ciel"
+1,4,1991,prism,"森の中での出来事","An incident in the forest","Un incident dans la forêt"
+1,5,1991,prism,"最強VS最凶","The strongest VS the fiercest","Le plus fort contre le plus féroce"
+1,6,1991,prism,"ピッコロVSフリーザ","Piccolo VS Frieza","Piccolo contre Freezer"
+1,7,1991,standard,"冒険にいこう！","Let’s go on an adventure!","Allons à l’aventure !"
+1,8,1991,standard,"ハプニング","Unexpected event!","Un imprévu !"
+1,9,1991,standard,"月の光を あびて……","Bathed in the moonlight…","Baigné par la lumière de la lune…"
+1,10,1991,standard,"空をドライブ","A drive in the sky","Virée dans le ciel"
+1,11,1991,standard,"エアーチェイス","Air chase","Poursuite aérienne"
+1,12,1991,standard,"休みの日の光景","A scene from a day off","Un jour de repos"
+1,13,1991,standard,"ベースボールプレイ","Playing Baseball","Partie de baseball"
+1,14,1991,standard,"原始な世界で","In a primitive world","Dans un monde primitif"
+1,15,1991,standard,"レッツ、GO!","Let’s go!","Allons-y !"
+1,16,1991,standard,"ブルマ","Bulma","Bulma"
+1,17,1991,standard,"優勝するぞ！","We’re going to win!","On va gagner !"
+1,18,1991,standard,"次はオイラだ！","My turn!","À moi maintenant !"
+1,19,1991,standard,"永遠の若さを！","To eternal youth!","Pour une jeunesse éternelle !"
+1,20,1991,standard,"みんな揃って","All together","Tous ensemble"
+1,21,1991,standard,"ドッグファイト","Dogfight","Combat aérien"
+1,22,1991,standard,"マッスルタワーにて","At Muscle Tower","À la Muscle Tower"
+1,23,1991,standard,"第23回天下一武道会","23rd World Martial Arts Tournament","23ᵉ Tournoi d'arts martiaux"
+1,24,1991,standard,"目標発見！","Target found!","Cible repérée !"
+1,25,1991,standard,"わたしの機関銃","My machine gun","Ma mitrailleuse"
+1,26,1991,standard,"いってきま～す！","I’m leaving!","J’y vais !"
+1,27,1991,standard,"大丈夫か？","Are you okay?","Tu vas bien ?"
+1,28,1991,standard,"ホントに大丈夫か？","Are you really okay?","Tu es sûr que ça va ?"
+1,29,1991,standard,"到着","Arrival","Arrivée"
+1,30,1991,standard,"一番エライ人","The boss","Le grand patron"
+1,31,1991,standard,"ただ今修業中","In training right now","En plein entraînement"
+1,32,1991,standard,"魔族の王","The Demon King","Le Roi des Démons"
+1,33,1991,standard,"飛んだぞ！","It took off!","Ça s’est envolé !"
+1,34,1991,standard,"ちょっとひとやすみ","Let’s take a short rest","On fait une petite pause"
+1,35,1991,standard,"激闘開始","The fierce battle begins","Le combat acharné commence"
+1,36,1991,standard,"いくぞ！サイヤ人","Let’s go! Saiyan","En avant ! Guerrier"
+1,37,1991,standard,"地球よ、オラに力を！","Earth, lend me your energy!","Terre, prête-moi ton énergie !"
+1,38,1991,standard,"ここはナメック星","This is Planet Namek","Ici, c’est la planète Namek"
+1,39,1991,standard,"さあ 着いたわよ！","We’ve arrived!","Ça y est, on est arrivés !"
+1,40,1991,standard,"あっ帽子が！","Ah, my hat!","Ah, mon chapeau !"
+1,41,1991,standard,"みんな待ってるよ！","Everyone’s waiting for you!","Tout le monde t’attend !"
+1,42,1991,standard,"ディナータイム","Dinner time","L’heure du dîner"
+2,43,1991,prism,"ハッピーホリデイ！","Happy Holiday!","Joyeuses vacances !"
+2,44,1991,prism,"仲間と悟空","Goku and friends","Goku et ses amis"
+2,45,1991,prism,"スポーツマン","Sportsman","Le sportif"
+2,46,1991,prism,"スーパーサイヤ人！","Super Saiyan!","Super Saiyan !"
+2,47,1991,prism,"天下分け目の超決戦！","The ultimate decisive battle!","Le combat décisif ultime !"
+2,48,1991,prism,"ギニュー特戦隊到着！","The Ginyu Force arrives!","Le Commando Ginyu arrive !"
+2,49,1991,standard,"大格闘！","A great battle!","Un grand combat !"
+2,50,1991,standard,"LET’S FLY！","Let’s fly!","Envolons-nous !"
+2,51,1991,standard,"かかってこいや！","Bring it on!","Viens te battre !"
+2,52,1991,standard,"ある夏の日","One summer day","Un jour d’été"
+2,53,1991,standard,"射てーっ！","Fire!","Feu !"
+2,54,1991,standard,"因縁の対決！","A fateful showdown!","Un duel fatidique !"
+2,55,1991,standard,"ホールドアップ！","Hands up!","Haut les mains !"
+2,56,1991,standard,"二人でパトロール","Patrolling together","Patrouille à deux"
+2,57,1991,standard,"クリリン対マジュニア","Krillin vs. Ma Junior","Krilin contre Majunior"
+2,58,1991,standard,"私が武天老師です","I am Master Roshi","Je suis Tortue Géniale"
+2,59,1991,standard,"うわわわわっ！","Whoa!","Ouah !"
+2,60,1991,standard,"勝つのは誰だ！？","Who will win!?","Qui va gagner !?"
+2,61,1991,standard,"やっつけろ！","Take him down!","Mets-le à terre !"
+2,62,1991,standard,"レッドリボン軍の恐怖！","The terror of the Red Ribbon army!","La terreur de l’armée du Ruban Rouge !"
+2,63,1991,standard,"キーーン！","Kiiiin!","Kiiiin !"
+2,64,1991,standard,"ワイルド・ブルマ","Wild Bulma","Bulma sauvage"
+2,65,1991,standard,"許さねえっ！","I won't forgive you!","Je ne te pardonnerai pas !"
+2,66,1991,standard,"悟空大活劇！","Goku's Great Adventure!","La grande aventure de Goku !"
+2,67,1991,standard,"いよいよ天下一武道会","At last, the World Martial Arts Tournament","Enfin, le tournoi des arts martiaux"
+2,68,1991,standard,"つかまってろよ！","Hang on!","Accroche-toi !"
+2,69,1991,standard,"試合開始！","The match begins!","Le match commence !"
+2,70,1991,standard,"か…勝ったぞ！","I... I won!","J’ai... j’ai gagné !"
+2,71,1991,standard,"パワーアップ！","Power up!","Puissance maximale !"
+2,72,1991,standard,"群雄割拠！","Heroes vie for supremacy!","Les héros s’affrontent pour la suprématie !"
+2,73,1991,standard,"さあツーリングだ！","Let’s go for a ride!","En route pour une balade !"
+2,74,1991,standard,"ついに対決の時","At last, the time for the showdown","Enfin, l’heure de l’affrontement"
+2,75,1991,standard,"急カーブ！","Sharp turn!","Virage serré !"
+2,76,1991,standard,"凶悪サイヤ人タッグ","The vicious Saiyan tag team","Le redoutable duo de Saiyans"
+2,77,1991,standard,"甘く見ないでね！","Don't underestimate me!","Ne me sous-estime pas !"
+2,78,1991,standard,"ザーボンの怒り","Zarbon's anger","La colère de Zarbon"
+2,79,1991,standard,"両者ゆずらず","Neither side gives in","Aucun des deux ne cède"
+2,80,1991,standard,"ヤッホー！オラ悟空！","Yoo-hoo! I'm Goku!","Youhou ! Moi, c’est Goku !"
+2,82,1991,standard,"ドラゴンボールはどこに！？","Where are the Dragon Balls!?","Où sont les Dragon Balls ?!"
+2,83,1991,standard,"似合う？","Does it suit me?","Ça me va ?"
+2,84,1991,standard,"地獄以上の恐怖","Terror worse than hell","Une terreur pire que l’enfer"
+3,85,1991,prism,"神龍に乗って","Riding on Shenron","À dos de Shenron"
+3,86,1991,prism,"手に入れろ7つのDB","Get the seven Dragon Balls","Réunis les sept Dragon Balls"
+3,87,1991,prism,"龍虎相討つ！","Dragon and tiger clash!","Le dragon et le tigre s’affrontent !"
+3,88,1991,prism,"お父さんとの休日","A day off with Dad","Un jour de repos avec papa"
+3,89,1991,prism,"肉弾戦","Hand-to-hand combat","Combat au corps à corps"
+3,90,1991,prism,"悟空突進！","Goku charges forward!","Goku fonce !"
+3,91,1991,standard,"えへんっ！","Ahem!","Hum hum !"
+3,92,1991,standard,"いいでしょ、コレ！！","Pretty cool, huh?","Pas mal, hein ?"
+3,93,1991,standard,"チチとの出会い","Meeting Chi-Chi","La rencontre avec Chichi"
+3,94,1991,standard,"ファンキーじいさん亀仙人","Funky old man Master Roshi","Tortue Géniale, le papy funky"
+3,95,1991,standard,"ひとっ飛び！","One quick flight!","Un petit vol express !"
+3,96,1991,standard,"わしの弟子じゃっ！","He's my disciple!","C’est mon disciple !"
+3,97,1991,standard,"さわやかな午後","A pleasant afternoon","Un agréable après-midi"
+3,98,1991,standard,"ここまでおいで！","Come and get me!","Viens m’attraper !"
+3,99,1991,standard,"人造人間8号","Android 8","C-8"
+3,100,1991,standard,"あれ？","Huh?","Hein ?"
+3,101,1991,standard,"殺し屋・桃白白","Mercenary Tao","Tao Pai Pai, le tueur à gages"
+3,102,1991,standard,"孫悟空強し！","Goku is strong!","Goku est fort !"
+3,103,1991,standard,"ピラフ一味の挑戦","The Pilaf Gang's challenge","Le défi de la bande de Pilaf"
+3,104,1991,standard,"メリークリスマス！","Merry Christmas!","Joyeux Noël !"
+3,106,1991,standard,"空中大激戦っ！","A fierce aerial battle!","Un combat aérien acharné !"
+3,107,1991,standard,"クリリンの放つ！","Krillin unleashes his attack!","Krilin lance son attaque !"
+3,108,1991,standard,"大魔王の脅威","The threat of the Demon King","La menace du Roi des Démons"
+3,109,1991,standard,"落ちても知らねえからな！","Don't blame me if you fall!","Ne viens pas te plaindre si tu tombes !"
+3,110,1991,standard,"ついに対決の時！","At last, the time for the showdown!","Enfin, l’heure de l’affrontement !"
+3,111,1991,standard,"1対1の勝負！","A one-on-one showdown!","Un duel en un contre un !"
+3,117,1991,standard,"一刻も早く！","As soon as possible!","Au plus vite !"
+3,118,1991,standard,"こ、殺してやる…！","I-I'll kill you...!","J-Je vais te tuer… !"
+3,119,1991,standard,"ザーボンVSベジータ","Zarbon VS Vegeta","Zarbon contre Vegeta"
+3,120,1991,standard,"DBは誰の手に！？","Who will get the Dragon Balls!?","Qui mettra la main sur les Dragon Balls ?!"
+3,121,1991,standard,"宇宙船内の猛特訓！","Intense training aboard the spaceship!","Entraînement intensif à bord du vaisseau spatial !"
+3,122,1991,standard,"最長老の危機！","The Grand Elder in danger!","Le Grand Ancêtre en danger !"
+3,123,1991,standard,"ギニューの大誤算！","Ginyu's big miscalculation!","La grosse erreur de calcul de Ginyu !"
+3,124,1991,standard,"消えてなくなれぇっ！","Disappear!","Disparais !"
+3,125,1991,standard,"今日はお買物！","Shopping today!","Aujourd’hui, on fait les courses !"
+3,126,1991,standard,"敵か？味方か！？","Friend or foe!?","Ennemi ou allié ?!"
