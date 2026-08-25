@@ -180,7 +180,7 @@ async function displayCardDetails(selectedCard) {
   cardDetails.appendChild(cardInfoList);
 
   const cardContainer = document.createElement("div");
-  cardContainer.className = "w-59 h-86 mx-auto cursor-pointer";
+  cardContainer.className = "w-59 h-86 mx-auto my-auto cursor-pointer";
   cardContainer.style.perspective = "1000px";
 
   const cardFlipper = document.createElement("div");
