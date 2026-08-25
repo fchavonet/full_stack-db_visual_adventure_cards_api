@@ -40,7 +40,7 @@ export function createCardId(partNumber, formattedNumber) {
 
 // Create image relative path.
 export function createImagePath(imageType, partNumber, formattedNumber, extension) {
-  return "assets/images/" + imageType + "/part_" + String(partNumber) + "-" + formattedNumber + "." + extension;
+  return "assets/images/" + imageType + "/part_" + String(partNumber) + "/part_" + String(partNumber) + "-" + formattedNumber + "." + extension;
 }
 
 // Create full image URL.

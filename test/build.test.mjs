@@ -30,10 +30,10 @@ describe("Utility functions", () => {
 
   describe("createImagePath", () => {
     it("Should create image relative path >", () => {
-      expect(createImagePath("front", 1, "000", "jpg")).toBe("assets/images/front/part_1-000.jpg");
-      expect(createImagePath("front", 1, "001", "jpg")).toBe("assets/images/front/part_1-001.jpg");
-      expect(createImagePath("front", 1, "042", "jpg")).toBe("assets/images/front/part_1-042.jpg");
-      expect(createImagePath("front", 3, "100", "jpg")).toBe("assets/images/front/part_3-100.jpg");
+      expect(createImagePath("front", 1, "000", "jpg")).toBe("assets/images/front/part_1/part_1-000.jpg");
+      expect(createImagePath("front", 1, "001", "jpg")).toBe("assets/images/front/part_1/part_1-001.jpg");
+      expect(createImagePath("front", 1, "042", "jpg")).toBe("assets/images/front/part_1/part_1-042.jpg");
+      expect(createImagePath("front", 3, "100", "jpg")).toBe("assets/images/front/part_3/part_3-100.jpg");
     });
   });
 
@@ -152,13 +152,13 @@ describe("API creation functions", () => {
       // Image exists (jpg).
       vi.spyOn(fs, "pathExists").mockResolvedValueOnce(true);
       let result = await findExistingImagePath("front", 1, "001");
-      expect(result.path).toBe("assets/images/front/part_1-001.jpg");
+      expect(result.path).toBe("assets/images/front/part_1/part_1-001.jpg");
       expect(result.exists).toBe(true);
 
       // No image exists.
       vi.spyOn(fs, "pathExists").mockResolvedValue(false);
       result = await findExistingImagePath("front", 1, "999");
-      expect(result.path).toBe("assets/images/front/part_1-999.webp");
+      expect(result.path).toBe("assets/images/front/part_1/part_1-999.webp");
       expect(result.exists).toBe(false);
     });
   });
