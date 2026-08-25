@@ -1,0 +1,13 @@
+{
+  "id": "p3-101",
+  "part": "3",
+  "number": "101",
+  "year": 1991,
+  "rarity": "standard",
+  "title_jp": "殺し屋・桃白白",
+  "title_en": "Mercenary Tao",
+  "title_fr": "Tao Pai Pai, le tueur à gages",
+  "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_3/part_3-101.webp",
+  "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_3/part_3-101.webp",
+  "updated_at": "2026-08-25T09:35:44.868Z"
+}
