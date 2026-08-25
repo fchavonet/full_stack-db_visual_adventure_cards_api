@@ -56,6 +56,10 @@
       "type": "string",
       "format": "uri"
     },
+    "prism_mask_url": {
+      "type": "string",
+      "format": "uri"
+    },
     "updated_at": {
       "type": "string",
       "format": "date-time"

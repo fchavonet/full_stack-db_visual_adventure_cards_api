@@ -197,12 +197,28 @@ export async function convertRowToCard(csvRow) {
   cardObject.front_image_url = frontImageUrl;
   cardObject.back_image_url = backImageUrl;
 
+  let prismMaskExists = true;
+
+  if (cardObject.rarity === "prism") {
+    const prismMaskInfo = await findExistingImagePath("mask", partNumber, formattedNumber);
+
+    prismMaskExists = prismMaskInfo.exists;
+
+    if (prismMaskInfo.exists) {
+      cardObject.prism_mask_url = createFullImageUrl(
+        BASE_URL,
+        prismMaskInfo.path
+      );
+    }
+  }
+
   cardObject.updated_at = new Date().toISOString();
 
   return {
     card: cardObject,
     frontImageExists: frontImageInfo.exists,
-    backImageExists: backImageInfo.exists
+    backImageExists: backImageInfo.exists,
+    prismMaskExists: prismMaskExists
   };
 }
 
@@ -265,6 +281,14 @@ export async function buildApiFiles() {
 
     if (!cardInfo.backImageExists) {
       console.warn("WARNING: " + cardInfo.card.id + " back image missing -> " + cardInfo.card.back_image_url);
+      totalWarnings = totalWarnings + 1;
+    }
+
+    if (
+      cardInfo.card.rarity === "prism" &&
+      !cardInfo.prismMaskExists
+    ) {
+      console.warn("WARNING: " + cardInfo.card.id + " Prism mask missing");
       totalWarnings = totalWarnings + 1;
     }
 

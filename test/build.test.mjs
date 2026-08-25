@@ -34,6 +34,7 @@ describe("Utility functions", () => {
       expect(createImagePath("front", 1, "001", "jpg")).toBe("assets/images/front/part_1/part_1-001.jpg");
       expect(createImagePath("front", 1, "042", "jpg")).toBe("assets/images/front/part_1/part_1-042.jpg");
       expect(createImagePath("front", 3, "100", "jpg")).toBe("assets/images/front/part_3/part_3-100.jpg");
+      expect(createImagePath("mask", 1, "001", "webp")).toBe("assets/images/mask/part_1/part_1-001.webp");
     });
   });
 
@@ -42,15 +43,15 @@ describe("Utility functions", () => {
       const base1 = "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api";
       const base2 = "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/";
 
-      const path1 = "assets/images/front/part_1-000.jpg";
-      const path2 = "assets/images/front/part_1-001.jpg";
-      const path3 = "assets/images/front/part_1-042.jpg";
-      const path4 = "assets/images/front/part_3-100.jpg";
+      const path1 = "assets/images/front/part_1/part_1-000.jpg";
+      const path2 = "assets/images/front/part_1/part_1-001.jpg";
+      const path3 = "assets/images/front/part_1/part_1-042.jpg";
+      const path4 = "assets/images/front/part_3/part_3-100.jpg";
 
-      expect(createFullImageUrl(base1, path1)).toBe("https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1-000.jpg");
-      expect(createFullImageUrl(base2, path2)).toBe("https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1-001.jpg");
-      expect(createFullImageUrl(base2, path3)).toBe("https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1-042.jpg");
-      expect(createFullImageUrl(base2, path4)).toBe("https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_3-100.jpg");
+      expect(createFullImageUrl(base1, path1)).toBe("https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-000.jpg");
+      expect(createFullImageUrl(base2, path2)).toBe("https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-001.jpg");
+      expect(createFullImageUrl(base2, path3)).toBe("https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-042.jpg");
+      expect(createFullImageUrl(base2, path4)).toBe("https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_3/part_3-100.jpg");
     });
   });
 
@@ -161,6 +162,19 @@ describe("API creation functions", () => {
       expect(result.path).toBe("assets/images/front/part_1/part_1-999.webp");
       expect(result.exists).toBe(false);
     });
+
+    it("Should find existing Prism mask path >", async () => {
+      vi.spyOn(fs, "pathExists")
+        .mockResolvedValueOnce(false)
+        .mockResolvedValueOnce(false)
+        .mockResolvedValueOnce(false)
+        .mockResolvedValueOnce(true);
+
+      const result = await findExistingImagePath("mask", 1, "001");
+
+      expect(result.path).toBe("assets/images/mask/part_1/part_1-001.webp");
+      expect(result.exists).toBe(true);
+    });
   });
 
   describe("convertRowToCard", () => {
@@ -195,8 +209,30 @@ describe("API creation functions", () => {
       expect(result.card.title_fr).toBe("Test Card FR");
       expect(result.card.rarity).toBe("prism");
       expect(result.card.year).toBe(2025);
+      expect(result.card.prism_mask_url).toBe("https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/mask/part_1/part_1-005.jpg");
       expect(result.frontImageExists).toBe(true);
       expect(result.backImageExists).toBe(true);
+      expect(result.prismMaskExists).toBe(true);
+    });
+
+    it("Should not add Prism mask URL to standard card >", async () => {
+      vi.spyOn(fs, "pathExists").mockResolvedValue(true);
+
+      const csvRow = {
+        part: "1",
+        number: "6",
+        title_jp: "Test Card JP",
+        title_en: "Test Card EN",
+        title_fr: "Test Card FR",
+        rarity: "standard",
+        year: "2025"
+      };
+
+      const result = await convertRowToCard(csvRow);
+
+      expect(result.card.rarity).toBe("standard");
+      expect(result.card).not.toHaveProperty("prism_mask_url");
+      expect(result.prismMaskExists).toBe(true);
     });
   });
 
