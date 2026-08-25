@@ -1,8 +1,8 @@
-# Dragon Ball Visual Adventure Cards API
+# Dragon Ball Visual Adventure Cards: API
 
 ## Description
 
-The Dragon Ball Visual Adventure Cards API provides structured data on the collectible cards released by Bandai in the 1990s.
+The Dragon Ball Visual Adventure Cards: API provides structured data on the collectible cards released by Bandai in the 1990s.
 
 It is open-source, free to use, and designed for developers, collectors, and enthusiasts seeking easy access to card metadata.
 
@@ -23,9 +23,9 @@ Dragon Ball and all related characters are trademarks of Akira Toriyama, Bandai,
 
 ![HTML5 badge](https://img.shields.io/badge/HTML5-e34f26?logo=html5&logoColor=white&style=for-the-badge)
 ![CSS3 badge](https://img.shields.io/badge/CSS3-1572b6?logo=css&logoColor=white&style=for-the-badge)
+![TailwindCSS badge](https://img.shields.io/badge/TAILWINDCSS-06b6d4?logo=tailwindcss&logoColor=white&style=for-the-badge)
 ![JavaScript badge](https://img.shields.io/badge/JAVASCRIPT-f7df1e?logo=javascript&logoColor=black&style=for-the-badge)
 ![JSON badge](https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white&style=for-the-badge)
-![TailwindCSS badge](https://img.shields.io/badge/TAILWINDCSS-06b6d4?logo=tailwindcss&logoColor=white&style=for-the-badge)
 
 
 ## File Description
@@ -108,7 +108,7 @@ You can also test the project online by clicking [here](https://fchavonet.github
 ## What's Next?
 
 - Complete the card database with all missing entries.
-- Complete Prism masks for holographic cards.
+- Complete prism masks for holographic cards.
 
 ## Thanks
 
