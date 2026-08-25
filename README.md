@@ -108,8 +108,7 @@ You can also test the project online by clicking [here](https://fchavonet.github
 ## What's Next?
 
 - Complete the card database with all missing entries.
-- Replace low-quality card images with higher-resolution versions.
-- Develop a mobile application to allow users to track and manage their card collection.
+- Complete Prism masks for holographic cards.
 
 ## Thanks
 
