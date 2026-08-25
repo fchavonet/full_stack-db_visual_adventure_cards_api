@@ -10,7 +10,8 @@
     "title_fr": "Je prends ce trésor !",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-001.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-001.webp",
-    "updated_at": "2026-08-25T09:35:44.823Z"
+    "prism_mask_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/mask/part_1/part_1-001.webp",
+    "updated_at": "2026-08-25T10:29:06.847Z"
   },
   {
     "id": "p1-002",
@@ -23,7 +24,8 @@
     "title_fr": "Dragon Boy",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-002.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-002.webp",
-    "updated_at": "2026-08-25T09:35:44.824Z"
+    "prism_mask_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/mask/part_1/part_1-002.webp",
+    "updated_at": "2026-08-25T10:29:06.848Z"
   },
   {
     "id": "p1-003",
@@ -36,7 +38,8 @@
     "title_fr": "Pilote du ciel",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-003.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-003.webp",
-    "updated_at": "2026-08-25T09:35:44.825Z"
+    "prism_mask_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/mask/part_1/part_1-003.webp",
+    "updated_at": "2026-08-25T10:29:06.849Z"
   },
   {
     "id": "p1-004",
@@ -49,7 +52,8 @@
     "title_fr": "Un incident dans la forêt",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-004.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-004.webp",
-    "updated_at": "2026-08-25T09:35:44.825Z"
+    "prism_mask_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/mask/part_1/part_1-004.webp",
+    "updated_at": "2026-08-25T10:29:06.849Z"
   },
   {
     "id": "p1-005",
@@ -62,7 +66,8 @@
     "title_fr": "Le plus fort contre le plus féroce",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-005.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-005.webp",
-    "updated_at": "2026-08-25T09:35:44.826Z"
+    "prism_mask_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/mask/part_1/part_1-005.webp",
+    "updated_at": "2026-08-25T10:29:06.850Z"
   },
   {
     "id": "p1-006",
@@ -75,7 +80,8 @@
     "title_fr": "Piccolo contre Freezer",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-006.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-006.webp",
-    "updated_at": "2026-08-25T09:35:44.826Z"
+    "prism_mask_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/mask/part_1/part_1-006.webp",
+    "updated_at": "2026-08-25T10:29:06.850Z"
   },
   {
     "id": "p1-007",
@@ -88,7 +94,7 @@
     "title_fr": "Allons à l’aventure !",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-007.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-007.webp",
-    "updated_at": "2026-08-25T09:35:44.827Z"
+    "updated_at": "2026-08-25T10:29:06.850Z"
   },
   {
     "id": "p1-008",
@@ -101,7 +107,7 @@
     "title_fr": "Un imprévu !",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-008.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-008.webp",
-    "updated_at": "2026-08-25T09:35:44.827Z"
+    "updated_at": "2026-08-25T10:29:06.851Z"
   },
   {
     "id": "p1-009",
@@ -114,7 +120,7 @@
     "title_fr": "Baigné par la lumière de la lune…",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-009.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-009.webp",
-    "updated_at": "2026-08-25T09:35:44.828Z"
+    "updated_at": "2026-08-25T10:29:06.851Z"
   },
   {
     "id": "p1-010",
@@ -127,7 +133,7 @@
     "title_fr": "Virée dans le ciel",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-010.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-010.webp",
-    "updated_at": "2026-08-25T09:35:44.829Z"
+    "updated_at": "2026-08-25T10:29:06.851Z"
   },
   {
     "id": "p1-011",
@@ -140,7 +146,7 @@
     "title_fr": "Poursuite aérienne",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-011.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-011.webp",
-    "updated_at": "2026-08-25T09:35:44.829Z"
+    "updated_at": "2026-08-25T10:29:06.852Z"
   },
   {
     "id": "p1-012",
@@ -153,7 +159,7 @@
     "title_fr": "Un jour de repos",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-012.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-012.webp",
-    "updated_at": "2026-08-25T09:35:44.830Z"
+    "updated_at": "2026-08-25T10:29:06.852Z"
   },
   {
     "id": "p1-013",
@@ -166,7 +172,7 @@
     "title_fr": "Partie de baseball",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-013.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-013.webp",
-    "updated_at": "2026-08-25T09:35:44.830Z"
+    "updated_at": "2026-08-25T10:29:06.852Z"
   },
   {
     "id": "p1-014",
@@ -179,7 +185,7 @@
     "title_fr": "Dans un monde primitif",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-014.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-014.webp",
-    "updated_at": "2026-08-25T09:35:44.831Z"
+    "updated_at": "2026-08-25T10:29:06.853Z"
   },
   {
     "id": "p1-015",
@@ -192,7 +198,7 @@
     "title_fr": "Allons-y !",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-015.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-015.webp",
-    "updated_at": "2026-08-25T09:35:44.831Z"
+    "updated_at": "2026-08-25T10:29:06.853Z"
   },
   {
     "id": "p1-016",
@@ -205,7 +211,7 @@
     "title_fr": "Bulma",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-016.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-016.webp",
-    "updated_at": "2026-08-25T09:35:44.832Z"
+    "updated_at": "2026-08-25T10:29:06.853Z"
   },
   {
     "id": "p1-017",
@@ -218,7 +224,7 @@
     "title_fr": "On va gagner !",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-017.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-017.webp",
-    "updated_at": "2026-08-25T09:35:44.832Z"
+    "updated_at": "2026-08-25T10:29:06.854Z"
   },
   {
     "id": "p1-018",
@@ -231,7 +237,7 @@
     "title_fr": "À moi maintenant !",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-018.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-018.webp",
-    "updated_at": "2026-08-25T09:35:44.833Z"
+    "updated_at": "2026-08-25T10:29:06.854Z"
   },
   {
     "id": "p1-019",
@@ -244,7 +250,7 @@
     "title_fr": "Pour une jeunesse éternelle !",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-019.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-019.webp",
-    "updated_at": "2026-08-25T09:35:44.834Z"
+    "updated_at": "2026-08-25T10:29:06.854Z"
   },
   {
     "id": "p1-020",
@@ -257,7 +263,7 @@
     "title_fr": "Tous ensemble",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-020.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-020.webp",
-    "updated_at": "2026-08-25T09:35:44.834Z"
+    "updated_at": "2026-08-25T10:29:06.854Z"
   },
   {
     "id": "p1-021",
@@ -270,7 +276,7 @@
     "title_fr": "Combat aérien",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-021.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-021.webp",
-    "updated_at": "2026-08-25T09:35:44.835Z"
+    "updated_at": "2026-08-25T10:29:06.855Z"
   },
   {
     "id": "p1-022",
@@ -283,7 +289,7 @@
     "title_fr": "À la Muscle Tower",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-022.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-022.webp",
-    "updated_at": "2026-08-25T09:35:44.835Z"
+    "updated_at": "2026-08-25T10:29:06.855Z"
   },
   {
     "id": "p1-023",
@@ -296,7 +302,7 @@
     "title_fr": "23ᵉ Tournoi d'arts martiaux",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-023.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-023.webp",
-    "updated_at": "2026-08-25T09:35:44.836Z"
+    "updated_at": "2026-08-25T10:29:06.855Z"
   },
   {
     "id": "p1-024",
@@ -309,7 +315,7 @@
     "title_fr": "Cible repérée !",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-024.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-024.webp",
-    "updated_at": "2026-08-25T09:35:44.836Z"
+    "updated_at": "2026-08-25T10:29:06.856Z"
   },
   {
     "id": "p1-025",
@@ -322,7 +328,7 @@
     "title_fr": "Ma mitrailleuse",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-025.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-025.webp",
-    "updated_at": "2026-08-25T09:35:44.837Z"
+    "updated_at": "2026-08-25T10:29:06.856Z"
   },
   {
     "id": "p1-026",
@@ -335,7 +341,7 @@
     "title_fr": "J’y vais !",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-026.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-026.webp",
-    "updated_at": "2026-08-25T09:35:44.838Z"
+    "updated_at": "2026-08-25T10:29:06.856Z"
   },
   {
     "id": "p1-027",
@@ -348,7 +354,7 @@
     "title_fr": "Tu vas bien ?",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-027.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-027.webp",
-    "updated_at": "2026-08-25T09:35:44.838Z"
+    "updated_at": "2026-08-25T10:29:06.856Z"
   },
   {
     "id": "p1-028",
@@ -361,7 +367,7 @@
     "title_fr": "Tu es sûr que ça va ?",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-028.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-028.webp",
-    "updated_at": "2026-08-25T09:35:44.839Z"
+    "updated_at": "2026-08-25T10:29:06.857Z"
   },
   {
     "id": "p1-029",
@@ -374,7 +380,7 @@
     "title_fr": "Arrivée",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-029.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-029.webp",
-    "updated_at": "2026-08-25T09:35:44.839Z"
+    "updated_at": "2026-08-25T10:29:06.857Z"
   },
   {
     "id": "p1-030",
@@ -387,7 +393,7 @@
     "title_fr": "Le grand patron",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-030.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-030.webp",
-    "updated_at": "2026-08-25T09:35:44.840Z"
+    "updated_at": "2026-08-25T10:29:06.857Z"
   },
   {
     "id": "p1-031",
@@ -400,7 +406,7 @@
     "title_fr": "En plein entraînement",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-031.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-031.webp",
-    "updated_at": "2026-08-25T09:35:44.840Z"
+    "updated_at": "2026-08-25T10:29:06.858Z"
   },
   {
     "id": "p1-032",
@@ -413,7 +419,7 @@
     "title_fr": "Le Roi des Démons",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-032.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-032.webp",
-    "updated_at": "2026-08-25T09:35:44.841Z"
+    "updated_at": "2026-08-25T10:29:06.858Z"
   },
   {
     "id": "p1-033",
@@ -426,7 +432,7 @@
     "title_fr": "Ça s’est envolé !",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-033.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-033.webp",
-    "updated_at": "2026-08-25T09:35:44.842Z"
+    "updated_at": "2026-08-25T10:29:06.858Z"
   },
   {
     "id": "p1-034",
@@ -439,7 +445,7 @@
     "title_fr": "On fait une petite pause",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-034.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-034.webp",
-    "updated_at": "2026-08-25T09:35:44.842Z"
+    "updated_at": "2026-08-25T10:29:06.859Z"
   },
   {
     "id": "p1-035",
@@ -452,7 +458,7 @@
     "title_fr": "Le combat acharné commence",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-035.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-035.webp",
-    "updated_at": "2026-08-25T09:35:44.843Z"
+    "updated_at": "2026-08-25T10:29:06.859Z"
   },
   {
     "id": "p1-036",
@@ -465,7 +471,7 @@
     "title_fr": "En avant ! Guerrier",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-036.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-036.webp",
-    "updated_at": "2026-08-25T09:35:44.843Z"
+    "updated_at": "2026-08-25T10:29:06.860Z"
   },
   {
     "id": "p1-037",
@@ -478,7 +484,7 @@
     "title_fr": "Terre, prête-moi ton énergie !",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-037.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-037.webp",
-    "updated_at": "2026-08-25T09:35:44.844Z"
+    "updated_at": "2026-08-25T10:29:06.860Z"
   },
   {
     "id": "p1-038",
@@ -491,7 +497,7 @@
     "title_fr": "Ici, c’est la planète Namek",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-038.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-038.webp",
-    "updated_at": "2026-08-25T09:35:44.844Z"
+    "updated_at": "2026-08-25T10:29:06.860Z"
   },
   {
     "id": "p1-039",
@@ -504,7 +510,7 @@
     "title_fr": "Ça y est, on est arrivés !",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-039.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-039.webp",
-    "updated_at": "2026-08-25T09:35:44.845Z"
+    "updated_at": "2026-08-25T10:29:06.861Z"
   },
   {
     "id": "p1-040",
@@ -517,7 +523,7 @@
     "title_fr": "Ah, mon chapeau !",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-040.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-040.webp",
-    "updated_at": "2026-08-25T09:35:44.845Z"
+    "updated_at": "2026-08-25T10:29:06.861Z"
   },
   {
     "id": "p1-041",
@@ -530,7 +536,7 @@
     "title_fr": "Tout le monde t’attend !",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-041.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-041.webp",
-    "updated_at": "2026-08-25T09:35:44.847Z"
+    "updated_at": "2026-08-25T10:29:06.861Z"
   },
   {
     "id": "p1-042",
@@ -543,6 +549,6 @@
     "title_fr": "L’heure du dîner",
     "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_1/part_1-042.webp",
     "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_1/part_1-042.webp",
-    "updated_at": "2026-08-25T09:35:44.847Z"
+    "updated_at": "2026-08-25T10:29:06.862Z"
   }
 ]
