@@ -1,0 +1,13 @@
+{
+  "id": "p3-125",
+  "part": "3",
+  "number": "125",
+  "year": 1991,
+  "rarity": "standard",
+  "title_jp": "今日はお買物！",
+  "title_en": "Shopping today!",
+  "title_fr": "Aujourd’hui, on fait les courses !",
+  "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/front/part_3/part_3-125.webp",
+  "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards_api/assets/images/back/part_3/part_3-125.webp",
+  "updated_at": "2026-08-25T11:47:40.840Z"
+}
