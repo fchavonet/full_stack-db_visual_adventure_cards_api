@@ -1,0 +1,14 @@
+{
+  "id": "p3-085",
+  "part": "3",
+  "number": "085",
+  "year": 1991,
+  "rarity": "prism",
+  "title_jp": "神龍に乗って",
+  "title_en": "Riding on Shenron",
+  "title_fr": "À dos de Shenron",
+  "front_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/front/part_3/part_3-085.webp",
+  "back_image_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/back/part_3/part_3-085.webp",
+  "prism_mask_url": "https://fchavonet.github.io/full_stack-db_visual_adventure_cards-api/assets/images/mask/part_3/part_3-085.webp",
+  "updated_at": "2026-08-25T19:05:07.891Z"
+}
